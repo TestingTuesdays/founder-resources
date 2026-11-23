@@ -82,4 +82,16 @@ Skills are reusable **human or AI-assisted procedures** with defined inputs, tes
 | [Digital health readiness](kenya-health-digital/SKILL.md) | Kenya-specific evidence and retest |
 | [Sector licensing discovery](kenya-sector-licensing/SKILL.md) | Kenya-specific evidence and retest |
 
+## Kenya provider integration skills
+
+| Skill | Focus |
+| --- | --- |
+| [M-Pesa STK integration](kenya-mpesa-stk-integration/SKILL.md) | Safe provider/market QA and retest |
+| [M-Pesa collections and payouts](kenya-mpesa-c2b-b2c/SKILL.md) | Safe provider/market QA and retest |
+| [Payment provider selection](kenya-psp-selection/SKILL.md) | Safe provider/market QA and retest |
+| [ODPC data map](kenya-odpc-data-map/SKILL.md) | Safe provider/market QA and retest |
+| [KRA eTIMS workflow](kenya-kra-etims-integration/SKILL.md) | Safe provider/market QA and retest |
+| [Kenya field usability](kenya-kenya-usability-research/SKILL.md) | Safe provider/market QA and retest |
+| [County permits discovery](kenya-county-permits/SKILL.md) | Safe provider/market QA and retest |
+
 Copy [session and release templates](../templates/README.md) into **private** team records. Review personal-data safety before recording tests.

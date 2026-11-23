@@ -24,10 +24,15 @@ A **free public knowledge base** for founders testing and shipping SaaS, consume
 - **[Perk application playbook](perks/application-playbook.md)** — eligibility, real savings, expiration and billing safeguards.
 - **[Suggest a new resource, perk or skill](CONTRIBUTING.md)** — guided GitHub issue forms and pull-request review checklist.
 
+## New Kenya integration and provider QA
+
+- [Seven Kenya implementation recipes](kenya/integrations/README.md) — M-Pesa STK, C2B/B2C, PSP selection, ODPC data inventory, eTIMS, field testing and county permits.
+- [25 app-category playbooks](app-types/README.md) — now includes B2B SaaS, AI agents, telemedicine, insurtech, HR, faith communities, climate, ticketing, property finance and gaming.
+
 ## Build for Kenya and your app category
 
 - **[Kenya-specific payments, compliance and localization](kenya/README.md)** — M-Pesa/Daraja, ODPC, KRA, fintech, consumer, SMS/USSD, health and sector regulation discovery.
-- **[15 app-type testing playbooks](app-types/README.md)** — fintech, e-commerce, health, education, agritech, logistics, proptech, food, travel, marketplace, civic, utilities, media, nonprofit and community apps.
+- **[25 app-type testing playbooks](app-types/README.md)** — fintech, e-commerce, health, education, agritech, logistics, proptech, food, travel, marketplace, civic, utilities, media, nonprofit and community apps.
 - **[Kenya-specific reusable skills](skills/README.md)** — actionable tests, evidence and regulator/provider source checks.
 
 ## Recently expanded quality topics
@@ -87,7 +92,7 @@ A **free public knowledge base** for founders testing and shipping SaaS, consume
 The library now includes practical skills covering deliverability, relevance, provider failures, software dependencies, pricing, mobile tracking and region-specific checkout; see the [skills index](skills/README.md).
 
 
-[**Tool directory**](tools/README.md) and [low-cost/local testing stack](tools/free-and-local.md) cover research, QA, accessibility, security, mobile, localization, payments, product analytics and AI. [**Skill library**](skills/README.md) provides 58 repeatable procedures with inputs, steps and evidence. [**Templates**](templates/README.md) help you track tasks, defects and retests.
+[**Tool directory**](tools/README.md) and [low-cost/local testing stack](tools/free-and-local.md) cover research, QA, accessibility, security, mobile, localization, payments, product analytics and AI. [**Skill library**](skills/README.md) provides 65 repeatable procedures with inputs, steps and evidence. [**Templates**](templates/README.md) help you track tasks, defects and retests.
 
 ### Minimum quality loop
 

@@ -4,6 +4,10 @@
 
 A founder-friendly, **Kenya-specific** guide to payments, privacy, compliance discovery, localization, mobile UX and operational quality. **Do not mistake this for a legal opinion or a list of guaranteed provider approvals.**
 
+## Detailed implementation recipes
+
+[Seven provider and implementation QA recipes](integrations/README.md) cover STK Push, collections and payouts, provider evaluation, ODPC data maps, eTIMS, field research and county permits. Each has a matching reusable skill.
+
 ## Start by risk
 
 - [Kenya payments: M-Pesa, PSPs and reconciliation](payments.md) · [Reusable skill](../skills/kenya-payments/SKILL.md)

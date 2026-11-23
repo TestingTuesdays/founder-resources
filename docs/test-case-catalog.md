@@ -125,4 +125,15 @@ These are *examples*, not universal requirements. Mark non-applicable features N
 | KE-USSD-01 | USSD session timeout | Clear restart/recovery |
 | KE-HEALTH-01 | Caregiver tries unrelated patient record | Access denied |
 
+| KE-STK-01 | STK accepted but user cancels | No paid entitlement |
+| KE-STK-02 | Callback delayed beyond browser session | Pending reconciles safely |
+| KE-STK-03 | Provider event replay | Single ledger transition |
+| KE-C2B-01 | Unmatched C2B reference | Held for manual reconciliation |
+| KE-B2C-01 | Unauthorized payout request | Server denies |
+| KE-PSP-01 | Kenyan legal entity unsupported | No false onboarding claim |
+| KE-ODPC-01 | Third-party processor inventory | Every data flow mapped |
+| KE-ETIMS-01 | Refunded invoice | Correct approved invoice/credit note treatment |
+| KE-FIELD-01 | Older phone with low storage | Primary task usable or clear fallback |
+| KE-COUNTY-01 | Physical operation requires permit review | No unsupported approval claim |
+
 Use [the bug report](../templates/bug-report.md) to report failures and [the retest template](../templates/retest.md) to verify fixes. Never target systems without permission.

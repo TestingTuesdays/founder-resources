@@ -8,6 +8,11 @@
 - [Device and network matrix](qa-device-matrix.md) — representative mobile, assistive technology and slow connectivity.
 - [Research consent planning](consent-and-research.md) — privacy, participant rights and safe recording.
 
+## Kenya payment integration QA
+
+- [M-Pesa state machine](mpesa-state-machine.md) — separate prompt, callback, verification and ledger states.
+- [Provider comparison](kenya-psp-comparison.md) — merchant eligibility, rails, fees, refunds and settlement.
+
 ## Kenya and sector QA
 
 - [Kenya payment reconciliation](kenya-payment-reconciliation.md) — STK push, callbacks, refunds and settlement.

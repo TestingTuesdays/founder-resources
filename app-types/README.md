@@ -20,4 +20,17 @@ Start with your product's **actual user task and risk**, then use the appropriat
 - [NGO, donation and fundraising apps](nonprofit-donations.md) — Donor trust, disbursement evidence, restricted funds, receipts and privacy
 - [Social, dating and community apps](social-community.md) — Identity, reporting, abuse, consent, child safety and user-generated content
 
+## Additional product categories
+
+- [B2B SaaS](b2b-saas.md)
+- [AI chatbots and agents](ai-chatbots.md)
+- [Telemedicine](telemedicine.md)
+- [Insurtech](insurtech.md)
+- [HR and recruiting](hr-recruiting.md)
+- [Religious community](religious-community.md)
+- [Climate/carbon](climate-carbon.md)
+- [Event ticketing](ticketing-events.md)
+- [Real-estate finance](real-estate-finance.md)
+- [Gaming](gaming.md)
+
 Each playbook includes scenarios, common mistakes, Kenya-specific considerations and official references. These are founder QA starting points, not a substitute for professional legal, medical, financial or safety reviews.
