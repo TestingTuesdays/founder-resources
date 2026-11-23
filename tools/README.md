@@ -167,3 +167,8 @@ Review current price/seat limits, supported devices and browsers, data-processin
 | Africa payment APIs | [Paystack](https://paystack.com/docs/), [Flutterwave](https://developer.flutterwave.com/), [Safaricom Daraja](https://developer.safaricom.co.ke/) |
 
 Check country-specific integration eligibility, data handling, cost and production limits independently. Listing a provider is not an endorsement or a verified startup credit.
+
+## UI inspiration and visual references
+
+- [24 curated inspiration websites](../inspiration/README.md) — product flows, landing pages, components, visual portfolios and design systems.
+- [Quick design reference guide](design-inspiration.md) — which resource to use for a given task.

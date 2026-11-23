@@ -136,4 +136,15 @@ These are *examples*, not universal requirements. Mark non-applicable features N
 | KE-FIELD-01 | Older phone with low storage | Primary task usable or clear fallback |
 | KE-COUNTY-01 | Physical operation requires permit review | No unsupported approval claim |
 
+| SEO-01 | Duplicate page canonical | Correct canonical and indexability |
+| SEO-02 | JS-only main content | Useful rendered/indexable content |
+| SEO-03 | Staging site | No accidental public indexing |
+| AEO-01 | AI answer misstates product capability | Correct published factual source and provenance |
+| META-01 | Social share card | Correct title, description and absolute image URL |
+| META-02 | Structured data claims | Match actual visible page |
+| UI-01 | Small-screen CTA | Visible, legible and usable |
+| UI-02 | 200% zoom and focus | No lost primary controls |
+| UI-03 | Five-second comprehension | User identifies product and next action |
+| IA-01 | First click to core task | Correct destination without coaching |
+
 Use [the bug report](../templates/bug-report.md) to report failures and [the retest template](../templates/retest.md) to verify fixes. Never target systems without permission.

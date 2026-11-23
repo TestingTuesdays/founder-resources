@@ -24,6 +24,12 @@ A **free public knowledge base** for founders testing and shipping SaaS, consume
 - **[Perk application playbook](perks/application-playbook.md)** — eligibility, real savings, expiration and billing safeguards.
 - **[Suggest a new resource, perk or skill](CONTRIBUTING.md)** — guided GitHub issue forms and pull-request review checklist.
 
+## SEO, AI discovery and interface design
+
+- **[Eight SEO, AEO/GEO and UI/UX audit guides](design-growth/README.md)** — technical SEO, AI search visibility, metadata, visual hierarchy, landing pages, design systems, navigation and benchmarking.
+- **[24 UI inspiration websites](inspiration/README.md)** — Mobbin, Page Flows, Refero, Land-book, Awwwards, Component Gallery and more.
+- **[Copyable audit and inspiration templates](templates/README.md)** — structured before/after evidence and user retesting.
+
 ## New Kenya integration and provider QA
 
 - [Seven Kenya implementation recipes](kenya/integrations/README.md) — M-Pesa STK, C2B/B2C, PSP selection, ODPC data inventory, eTIMS, field testing and county permits.
@@ -92,7 +98,7 @@ A **free public knowledge base** for founders testing and shipping SaaS, consume
 The library now includes practical skills covering deliverability, relevance, provider failures, software dependencies, pricing, mobile tracking and region-specific checkout; see the [skills index](skills/README.md).
 
 
-[**Tool directory**](tools/README.md) and [low-cost/local testing stack](tools/free-and-local.md) cover research, QA, accessibility, security, mobile, localization, payments, product analytics and AI. [**Skill library**](skills/README.md) provides 65 repeatable procedures with inputs, steps and evidence. [**Templates**](templates/README.md) help you track tasks, defects and retests.
+[**Tool directory**](tools/README.md) and [low-cost/local testing stack](tools/free-and-local.md) cover research, QA, accessibility, security, mobile, localization, payments, product analytics and AI. [**Skill library**](skills/README.md) provides 73 repeatable procedures with inputs, steps and evidence. [**Templates**](templates/README.md) help you track tasks, defects and retests.
 
 ### Minimum quality loop
 

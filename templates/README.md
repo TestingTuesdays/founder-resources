@@ -2,6 +2,11 @@
 
 [← Home](../README.md) · [Contribute](../CONTRIBUTING.md) · [Startup perks](../perks/README.md)
 
+## SEO and product design audits
+
+- [SEO/AEO/metadata and UI audit](design-growth-audit.md) — evidence, priority, owner and retest.
+- [UI reference review](ui-reference-review.md) — original design inspiration without copying.
+
 ## Testing Tuesdays session and release planning
 
 - [Issue triage board](issue-triage-board.md) — tasks, severity, owner, ship and retest.

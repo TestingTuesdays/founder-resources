@@ -94,4 +94,17 @@ Skills are reusable **human or AI-assisted procedures** with defined inputs, tes
 | [Kenya field usability](kenya-kenya-usability-research/SKILL.md) | Safe provider/market QA and retest |
 | [County permits discovery](kenya-county-permits/SKILL.md) | Safe provider/market QA and retest |
 
+## SEO, AEO/GEO and UI/UX skills
+
+| Skill | Focus |
+| --- | --- |
+| [AI engine optimization and generative search](aeo-geo-audit/SKILL.md) | Actionable audit and retest |
+| [Technical SEO](technical-seo/SKILL.md) | Actionable audit and retest |
+| [Metadata and social previews](metadata-social-preview/SKILL.md) | Actionable audit and retest |
+| [Visual hierarchy and typography](visual-hierarchy/SKILL.md) | Actionable audit and retest |
+| [Landing-page conversion UX](landing-conversion-ux/SKILL.md) | Actionable audit and retest |
+| [Design tokens and systems](design-systems-tokens/SKILL.md) | Actionable audit and retest |
+| [Navigation and information architecture](navigation-information-architecture/SKILL.md) | Actionable audit and retest |
+| [UI critique and benchmarking](ui-critique-and-benchmark/SKILL.md) | Actionable audit and retest |
+
 Copy [session and release templates](../templates/README.md) into **private** team records. Review personal-data safety before recording tests.

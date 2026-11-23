@@ -7,6 +7,11 @@
 - [Kenya founder guides](../kenya/README.md)
 - [App-specific testing playbooks](../app-types/README.md)
 
+## Design, SEO and AI discoverability
+
+- [Design and growth audits](../design-growth/README.md)
+- [UI inspiration websites](../inspiration/README.md)
+
 ## First release
 
 [Start here](START-HERE.md) · [Launch week](founder-launch-week.md) · [Release gate](release-readiness.md) · [Testing Tuesdays session kit](testing-tuesdays-session-kit.md) · [Common mistakes](common-mistakes.md) · [Test catalog](test-case-catalog.md)
