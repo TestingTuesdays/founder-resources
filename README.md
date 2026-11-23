@@ -4,6 +4,12 @@
 
 A **free public knowledge base** for founders testing and shipping SaaS, consumer web and mobile products, AI applications, marketplaces and connected hardware. Includes practical workflows, common errors, sample test cases, a large tool index, reusable skills and release templates.
 
+## Structured QA datasets and maintenance
+
+- [32 app-type test scenarios](data/app-type-scenarios.csv) — importable synthetic examples covering 25 product categories.
+- [15 Kenya payment-provider evaluation questions](data/kenya-provider-questions.csv) — evidence fields for provider selection.
+- [Editorial source freshness policy](docs/editorial-source-freshness.md) — how to update perks and regulatory references without unsupported claims.
+
 ## Start in five minutes
 
 1. [Start here](docs/START-HERE.md)
@@ -103,7 +109,7 @@ A **free public knowledge base** for founders testing and shipping SaaS, consume
 The library now includes practical skills covering deliverability, relevance, provider failures, software dependencies, pricing, mobile tracking and region-specific checkout; see the [skills index](skills/README.md).
 
 
-[**Tool directory**](tools/README.md) and [low-cost/local testing stack](tools/free-and-local.md) cover research, QA, accessibility, security, mobile, localization, payments, product analytics and AI. [**Skill library**](skills/README.md) provides 80 repeatable procedures with inputs, steps and evidence. [**Templates**](templates/README.md) help you track tasks, defects and retests.
+[**Tool directory**](tools/README.md) and [low-cost/local testing stack](tools/free-and-local.md) cover research, QA, accessibility, security, mobile, localization, payments, product analytics and AI. [**Skill library**](skills/README.md) provides 86 repeatable procedures with inputs, steps and evidence. [**Templates**](templates/README.md) help you track tasks, defects and retests.
 
 ### Minimum quality loop
 

@@ -94,3 +94,7 @@ _Last curated: 2026-11-23. These programs are external; Testing Tuesdays has not
 For partner-restricted third-party offers, see [partner offer marketplace guidance](partner-offers.md). For Kenyan founders, check [regional opportunities](kenya-nairobi.md) and [perks eligibility decision guide](eligibility-decision-tree.md).
 
 **Research method:** provider-owned program pages checked on November 23, 2026. Status is not evidence an individual application was accepted. Recheck live terms, country support and deadline before spending.
+
+## Source freshness and corrections
+
+[Editorial verification policy](../docs/editorial-source-freshness.md) defines evidence levels, rechecking expectations, correction practices and why a listed perk is never guaranteed. Provider terms may change after the last review date.

@@ -119,4 +119,15 @@ Skills are reusable **human or AI-assisted procedures** with defined inputs, tes
 | [Visual performance budgets](performance-design-budget/SKILL.md) | Review and comparable retest |
 | [Trust signals and product claims](trust-signals-claims/SKILL.md) | Review and comparable retest |
 
+## More founder operations skills
+
+| Skill | Goal |
+| --- | --- |
+| [Onboarding activation experiment](founder-onboarding-experiment/SKILL.md) | Repeatable audit and evidence |
+| [Pricing experiments](pricing-experiment/SKILL.md) | Repeatable audit and evidence |
+| [Security disclosure intake](security-disclosure-intake/SKILL.md) | Repeatable audit and evidence |
+| [API observability](api-observability/SKILL.md) | Repeatable audit and evidence |
+| [Inclusive recruiting](inclusive-recruitment/SKILL.md) | Repeatable audit and evidence |
+| [Marketplace dispute operations](marketplace-dispute-operations/SKILL.md) | Repeatable audit and evidence |
+
 Copy [session and release templates](../templates/README.md) into **private** team records. Review personal-data safety before recording tests.

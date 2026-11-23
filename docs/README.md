@@ -12,6 +12,17 @@
 - [Design and growth audits](../design-growth/README.md)
 - [UI inspiration websites](../inspiration/README.md)
 
+## New founder operations and editorial resources
+
+- [Onboarding activation experiment](founder-onboarding-experiment.md)
+- [Pricing experiments](pricing-experiment.md)
+- [Security disclosure intake](security-disclosure-intake.md)
+- [API observability](api-observability.md)
+- [Inclusive recruiting](inclusive-recruitment.md)
+- [Marketplace dispute operations](marketplace-dispute-operations.md)
+- [Source freshness and corrections](editorial-source-freshness.md)
+- [Structured QA datasets](../data/README.md)
+
 ## First release
 
 [Start here](START-HERE.md) · [Launch week](founder-launch-week.md) · [Release gate](release-readiness.md) · [Testing Tuesdays session kit](testing-tuesdays-session-kit.md) · [Common mistakes](common-mistakes.md) · [Test catalog](test-case-catalog.md)

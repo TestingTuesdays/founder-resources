@@ -34,3 +34,7 @@ Start with your product's **actual user task and risk**, then use the appropriat
 - [Gaming](gaming.md)
 
 Each playbook includes scenarios, common mistakes, Kenya-specific considerations and official references. These are founder QA starting points, not a substitute for professional legal, medical, financial or safety reviews.
+
+## Importable test scenarios
+
+[32 starter scenarios by app type](../data/app-type-scenarios.csv) are available as CSV for use in a private QA tracker. They are proposed scenarios, not completed tests.

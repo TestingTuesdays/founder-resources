@@ -1,0 +1,11 @@
+# Structured founder QA data
+
+[← Home](../README.md) · [App types](../app-types/README.md) · [Templates](../templates/README.md)
+
+Use these **synthetic example catalogs** to seed test plans. They are not actual testing results, user data or a certification.
+
+- [App-type scenario catalog](app-type-scenarios.csv) — high-risk journeys for common products, with IDs and expected results.
+- [Kenya provider decision questions](kenya-provider-questions.csv) — comparison fields for merchant onboarding, payments and compliance review.
+- [Source freshness policy](../docs/editorial-source-freshness.md) — how to update claims safely.
+
+All examples use fictitious identities and no production credentials. CSV files are UTF-8 and intended for import into spreadsheets, issue trackers or a private QA workspace.

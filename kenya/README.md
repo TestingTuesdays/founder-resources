@@ -45,3 +45,7 @@ A founder-friendly, **Kenya-specific** guide to payments, privacy, compliance di
 [CBK](https://www.centralbank.go.ke/) · [ODPC](https://www.odpc.go.ke/) · [KRA](https://www.kra.go.ke/) · [Kenya Law](https://new.kenyalaw.org/) · [Communications Authority](https://www.ca.go.ke/) · [Safaricom Daraja](https://developer.safaricom.co.ke/).
 
 **Editorial note:** regulator and provider links are starting points. Specific statutory thresholds, rates, licensing exemptions and deadlines require current primary-document verification and qualified local advice. This library does not certify compliance.
+
+## Provider selection data
+
+Use the [Kenya provider evaluation questions](../data/kenya-provider-questions.csv) to compare merchant onboarding, supported payment rails, settlement, fees, privacy and regulatory questions. Populate answers from current written provider sources, not guesses.
