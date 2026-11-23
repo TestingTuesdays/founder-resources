@@ -1,0 +1,14 @@
+name: Validate documentation
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check relative documentation links
+        run: python3 scripts/check_links.py

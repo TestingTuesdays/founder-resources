@@ -2,49 +2,72 @@
 
 **Working products. Real users. Better releases.**
 
-An open, navigable founder handbook for **testing, improving and shipping quality products**, from a first MVP to SaaS, consumer web, mobile, AI and connected hardware. Guidance includes mistakes to avoid, test scenarios, official tools, reusable skills and templates. This public repository does **not** store private testing reports.
+A **free public knowledge base** for founders testing and shipping SaaS, consumer web and mobile products, AI applications, marketplaces and connected hardware. Includes practical workflows, common errors, sample test cases, a large tool index, reusable skills and release templates.
 
-## Start in 5 minutes
+## Start in five minutes
 
-1. [Choose the right testing path](docs/START-HERE.md) for your product.
-2. [Run the standard test cases](docs/test-case-catalog.md) and [avoid common mistakes](docs/common-mistakes.md).
-3. [Compare tools by category](tools/README.md) rather than by advertising.
-4. [Follow a reusable skill](skills/README.md) and [copy a template](templates/README.md).
-5. [Use the release gate](docs/release-readiness.md), ship a fix and **retest**.
+1. [Start here](docs/START-HERE.md)
+2. [Common mistakes](docs/common-mistakes.md)
+3. [Standard test cases](docs/test-case-catalog.md)
+4. [Release checklist](docs/release-readiness.md)
+5. [Learning pathways](docs/learning-paths.md)
+6. [Tools directory](tools/README.md)
+7. [Tool evaluation checklist](tools/tool-evaluation-checklist.md)
+8. [Reusable skills](skills/README.md)
+9. [Copyable templates](templates/README.md)
 
-## Topic guides
+## Browse by topic
 
-| Test or build concern | Practical guide |
-| --- | --- |
-| Usability, discovery and research | [Usability & user testing](docs/usability.md) |
-| Unit, API, browser and regression tests | [QA & automation](docs/qa-automation.md) |
-| Inclusive design and screen readers | [Accessibility](docs/accessibility.md) |
-| Load, crashes, latency and recovery | [Performance & reliability](docs/performance.md) |
-| Tenant boundaries, access and sensitive data | [Security & privacy](docs/security-privacy.md) |
-| Translation, RTL and international formats | [Localization](docs/localization.md) |
-| Recurring billing, teams and permissions | [SaaS](docs/saas.md) |
-| App review, beta tracks and store releases | [Mobile & app stores](docs/mobile-app-stores.md) |
-| Prompts, RAG and agents | [AI evaluations](docs/ai-evaluation.md) |
-| Product metrics, funnels and experiments | [Analytics & experimentation](docs/analytics-experiments.md) |
-| Marketplaces, communities and UGC | [Consumer & marketplace](docs/consumer-marketplace.md) |
-| IoT, firmware and device safety | [Hardware & connected products](docs/hardware-connected.md) |
-| Progressive practice and role skills | [Learning pathways](docs/learning-paths.md) |
+### Design and user experience
 
-## Quick resources
+- [Usability & research](docs/usability.md)
+- [Design systems](docs/design-systems.md)
+- [Accessibility & inclusion](docs/accessibility.md)
+- [Onboarding & retention](docs/onboarding-retention.md)
 
-- [80+ testing products, standards and resources](tools/README.md) (category-indexed; vendor inclusion does not imply endorsement).
-- [Reusable QA and research skills](skills/README.md) with inputs, procedures, evidence and completion criteria.
-- [Copyable bug reports, test cases, session plans and launch checklists](templates/README.md).
-- [How to contribute a new resource or skill](CONTRIBUTING.md).
+### Engineering and quality
+
+- [QA & automation](docs/qa-automation.md)
+- [Performance & reliability](docs/performance.md)
+- [Security & privacy](docs/security-privacy.md)
+- [Data & migrations](docs/data-migrations.md)
+- [API integrations & webhooks](docs/api-integrations.md)
+
+### Shipping and growth
+
+- [SaaS & subscription billing](docs/saas.md)
+- [Mobile app stores](docs/mobile-app-stores.md)
+- [Analytics & experimentation](docs/analytics-experiments.md)
+- [SEO / AI discoverability](docs/seo-discovery.md)
+- [Email, push and notifications](docs/email-notifications.md)
+- [Support & incident handling](docs/support-operations.md)
+
+### Specialist products and markets
+
+- [AI evaluation & agents](docs/ai-evaluation.md)
+- [Localization & global readiness](docs/localization.md)
+- [Consumer apps, communities and marketplaces](docs/consumer-marketplace.md)
+- [Hardware & connected devices](docs/hardware-connected.md)
+- [Legal/regulatory considerations](docs/product-compliance.md)
+
+## Skills, tools and templates
+
+[**Tool directory**](tools/README.md) covers research, QA, accessibility, security, mobile, localization, payments, product analytics and AI. [**Skill library**](skills/README.md) provides 12 repeatable procedures with inputs, steps and evidence. [**Templates**](templates/README.md) help you track tasks, defects and retests.
+
+### Minimum quality loop
+
+**Choose task → observe real user → reproduce defect → prioritize → fix → deploy safely → retest original task.** Successful builds, merged PRs, pleasing demos and automated scanning scores are *not* proof of user success.
 
 ## About Testing Tuesdays
 
-Testing Tuesdays is a **Nairobi-based contribution-first product-testing community** developed with Web3Clubs Nairobi. Founders bring functional products, help test another team's real workflow, receive reviewed findings, ship fixes and return for comparable retests. This is about improving real products—not pitch-only demos.
+Testing Tuesdays is a contribution-first Nairobi product-testing community developed with Web3Clubs Nairobi. Founders bring real working products, help test another founder's product, collect useful evidence, ship improvements and return for comparable retests—not just pitch decks. Admissions and testing seats are organizer-reviewed; a referral or RSVP does not automatically grant acceptance.
 
-A founder referral or event RSVP is **not** automatic admission to the curated cohort. Founder acceptance and private testing data are handled separately from this public resource library. See the [program's Notion home](https://app.notion.com/p/420c1f4ba97e81528057d64c6a5115c0) and [TestingTuesdays organization](https://github.com/TestingTuesdays).
+[Testing Tuesdays program overview](https://app.notion.com/p/420c1f4ba97e81528057d64c6a5115c0) · [GitHub organization](https://github.com/TestingTuesdays).
 
-## Guidance, not certification
+## Contribute and keep this current
 
-Use only permissioned environments and synthetic test data. Tools and tutorials do not by themselves prove WCAG compliance, security certification or app-store approval. Platform policies, legal obligations, pricing and free plans change; verify current official sources before launch.
+See [CONTRIBUTING.md](CONTRIBUTING.md). Report outdated documentation, broken links, useful tests, skills and regional release considerations. The CI workflow validates **relative Markdown links**; external services, pricing, legal rules and app-store requirements must be rechecked manually against authoritative sources.
 
-_Last curated: November 23, 2026. Contributions and corrections welcome._
+**Privacy and safety:** no real customer data, API keys, participant recordings or private founder reports in public GitHub issues. Security testing is for authorized systems only. This library is guidance, not a security, accessibility, regulatory or store-approval certification.
+
+_Last curated: November 23, 2026._

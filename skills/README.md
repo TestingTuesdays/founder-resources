@@ -1,18 +1,22 @@
-# Reusable testing skills
+# Reusable Testing Tuesdays founder skills
 
 [← Home](../README.md) · [Templates](../templates/README.md)
 
-A skill is a **repeatable human or AI-assisted workflow**. These files provide objectives, input prerequisites, ordered tasks, quality gates and outputs. They do not authorize accessing private systems or claiming tests were completed without evidence.
+Skills are reusable **human or AI-assisted procedures** with defined inputs, tests and verifiable completion criteria. They never authorize use of private systems or fabricated test results.
 
-| Skill | Best for | Output |
-| --- | --- | --- |
-| [Run a moderated usability test](usability-test/SKILL.md) | User research | Observations and task outcomes |
-| [Triage reproducible bugs](bug-triage/SKILL.md) | QA teams | Prioritized issue backlog |
-| [Audit accessibility](accessibility-audit/SKILL.md) | UX and frontend | WCAG-linked findings |
-| [Verify a SaaS release](saas-release/SKILL.md) | B2B SaaS | Go/no-go evidence |
-| [Prepare mobile store launch](mobile-store-launch/SKILL.md) | iOS / Android | Submission readiness |
-| [Verify localization](localization-qa/SKILL.md) | Global app | Locale issue report |
-| [Run AI model evaluation](ai-evaluation/SKILL.md) | LLM apps/agents | Versioned eval results |
-| [Retest a shipped fix](retest-and-release/SKILL.md) | Every product | Comparable outcomes |
+| Skill | Goal |
+| --- | --- |
+| [Moderated usability test](usability-test/SKILL.md) | See actual user task behavior |
+| [Bug triage](bug-triage/SKILL.md) | Reproduce and prioritize issues |
+| [Accessibility audit](accessibility-audit/SKILL.md) | Find barriers and retest |
+| [SaaS release check](saas-release/SKILL.md) | Verify billing, roles and release |
+| [Mobile app-store launch](mobile-store-launch/SKILL.md) | Verify submission readiness |
+| [Localization QA](localization-qa/SKILL.md) | Test language and format context |
+| [AI evaluation](ai-evaluation/SKILL.md) | Measure regression and safety |
+| [Retest and release](retest-and-release/SKILL.md) | Verify the shipped fix |
+| [Integration test](integration-testing/SKILL.md) | OAuth, API contracts, webhook resilience |
+| [Incident drill](production-incident-drill/SKILL.md) | Detect and recover safely |
+| [SEO/AI discovery audit](seo-quality-audit/SKILL.md) | Crawlability and truthful discoverability |
+| [Data migration review](data-migration-review/SKILL.md) | Data integrity and rollback |
 
-Each skill can be followed manually or adapted by an agent with explicit permission and safe test data. Do not let agents substitute guessed results for tests.
+Copy [session and release templates](../templates/README.md) into **private** team records. Review personal-data safety before recording tests.
