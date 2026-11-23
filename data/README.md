@@ -31,3 +31,7 @@ All examples use fictitious identities and no production credentials. CSV files 
 ## Local market economics fixtures
 
 - [Synthetic profitability model inputs](market-profitability-example.csv) — for the [offline calculator](../markets/local-calculator.md); not real market data.
+
+## Evidence-based market research
+
+- [Market evidence starter schema](market-research-evidence.csv) — synthetic rows with no claimed measurements.

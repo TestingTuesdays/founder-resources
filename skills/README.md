@@ -192,3 +192,12 @@ Copy [session and release templates](../templates/README.md) into **private** te
 - [Industry profitability deep dives](../markets/industry/README.md)
 - [Country operating and filing checklists](../markets/entry/README.md)
 - [Offline profitability calculator](../markets/local-calculator.md)
+
+## Deeper market research and operating skills
+
+- [Pricing and willingness to pay](pricing-and-willingness-to-pay/SKILL.md)
+- [Bottom-up market sizing](market-size-bottom-up/SKILL.md)
+- [Sales cycle and collections](sales-cycle-and-collections/SKILL.md)
+- [Localization cost model](localization-cost-model/SKILL.md)
+- [Country risk register](country-risk-register/SKILL.md)
+- [Market exit and pivot](market-exit-and-pivot/SKILL.md)

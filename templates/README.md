@@ -7,6 +7,11 @@
 - [SEO/AEO/metadata and UI audit](design-growth-audit.md) — evidence, priority, owner and retest.
 - [UI reference review](ui-reference-review.md) — original design inspiration without copying.
 
+## Market discovery and risk research
+
+- [Market-entry interview script](market-interview-script.md) — buyer jobs, paid alternatives and procurement.
+- [Country entry risk register](market-entry-risk-register.md) — source, impact, blocking decisions and owners.
+
 ## Market profitability and business setup
 
 - [Country profitability scorecard](market-profitability-scorecard.md) — revenue, contribution margin, CAC, retention, fixed costs and risk.

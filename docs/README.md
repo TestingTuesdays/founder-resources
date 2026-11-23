@@ -2,6 +2,11 @@
 
 [← Repository home](../README.md) · [Skills](../skills/README.md) · [Templates](../templates/README.md)
 
+## Deeper market research and evidence
+
+- [Market operations](../markets/operations/README.md)
+- [Market evidence data contract](../markets/evidence-data-contract.md)
+
 ## Market profitability modeling and local business entry
 
 - [Industry economics](../markets/industry/README.md)

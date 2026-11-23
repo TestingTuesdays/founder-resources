@@ -1,8 +1,8 @@
 # Offline market profitability calculator
 
-[← Markets](README.md) · [Modeling framework](profitability-framework.md) · [Example input](../data/market-profitability-example.csv)
+[← Markets](README.md) · [Modeling framework](profitability-framework.md) · [Synthetic example input](../data/market-profitability-example.csv)
 
-A **dependency-free Python 3** calculator compares market-specific *user-supplied* assumptions. No API keys, external data feeds, hosted CI or claimed country profitability.
+The dependency-free Python 3 calculator accepts **founder-supplied assumptions only**. It is a **single-period acquisition cohort** model, not a real market ranking, LTV forecast or tax computation.
 
 ```sh
 python3 scripts/market_profitability.py data/market-profitability-example.csv
@@ -10,8 +10,18 @@ python3 scripts/market_profitability.py data/market-profitability-example.csv --
 python3 -m unittest discover -s scripts -p 'test_market_profitability.py'
 ```
 
-Input columns: `market,currency,price,variable_cost,cac,customers,fixed_cost,refund_loss,retained_fraction`. All monetary values in the **same currency and period** per row. `retained_fraction` is between 0 and 1; `customers` is the cohort acquired in the period. Compare markets only after normalizing currencies and comparable periods externally.
+Required columns: `market,currency,price,variable_cost,cac,customers,fixed_cost,refund_loss,retained_fraction`. Monetary values must use the **same currency and period** per row. `customers` is a nonnegative integer of newly acquired customers; `retained_fraction` ranges from 0 to 1.
 
-The model reports contribution per customer, after-CAC contribution, expected retained customer count, period net contribution after acquisition and fixed cost, and a simplistic fixed-cost break-even threshold. **Do not confuse that break-even with a full cash-flow model**: retention is a single-period factor, CAC is charged to all acquired customers, and the script excludes tax, debt, working capital, FX conversions and multi-period LTV. The sample markets are entirely synthetic.
+## Exact interpretation
 
-A successful calculation does not verify its inputs. Run a paid pilot and source-review before investment decisions. No GitHub Actions are enabled.
+- **Contribution per retained customer** = price − variable cost − refund loss.
+- **Expected retained customers** = acquired customers × retained fraction.
+- **Net per acquired customer** = retained fraction × contribution per retained customer − CAC.
+- **Period net** = acquired customers × net per acquired customer − fixed cost.
+- **Break-even acquired customers** = round up(fixed cost / net per acquired customer), *only when net per acquired customer is positive*. Otherwise there is no finite break-even under the assumptions.
+
+The break-even calculation now uses the **same retention and acquisition assumptions** as the period net. Earlier versions divided fixed cost by pre-acquisition contribution and could give a misleading break-even count.
+
+The model assumes all acquired customers incur CAC, while only retained customers generate this period's revenue. It excludes taxes, debt, working capital, FX conversion, delayed collections, changing cohorts and multi-period LTV. Different currencies cannot be ranked by raw amounts.
+
+The fixture is entirely synthetic. Validate the underlying data with paid pilots and accounting review. The presence of tests does not establish that they have run. GitHub Actions remains disabled.

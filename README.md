@@ -4,6 +4,12 @@
 
 A **free public knowledge base** for founders testing and shipping SaaS, consumer web and mobile products, AI applications, marketplaces and connected hardware. Includes practical workflows, common errors, sample test cases, a large tool index, reusable skills and release templates.
 
+## Market economics and research operations
+
+- [Market research and operational decision skills](markets/operations/README.md) — pricing, bottom-up sizing, sales cycles, localization costs, country risk and exit decisions.
+- [Market evidence data contract](markets/evidence-data-contract.md) — provenance and quality gates for future real market data.
+- [Offline profitability calculator](markets/local-calculator.md) — corrected break-even model using retention and CAC consistently.
+
 ## Deeper market economics and business entry
 
 - [Industry-specific profitability playbooks](markets/industry/README.md) — SaaS, fintech, health, hardware, marketplaces, AI, commerce and education.

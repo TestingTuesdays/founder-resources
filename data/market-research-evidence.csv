@@ -1,0 +1,4 @@
+market_id,country,industry,segment,evidence_type,source_url,checked_date,metric,unit,period,confidence,status
+"EXAMPLE-US-SAAS","United States","B2B SaaS","Illustrative enterprise buyer","Hypothesis","","","","","","Unverified","Not measured"
+"EXAMPLE-KE-FIN","Kenya","Fintech","Illustrative merchant","Hypothesis","","","","","","Unverified","Not measured"
+"EXAMPLE-DE-IOT","Germany","Hardware IoT","Illustrative technical buyer","Hypothesis","","","","","","Unverified","Not measured"
