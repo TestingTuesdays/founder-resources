@@ -114,4 +114,15 @@ These are *examples*, not universal requirements. Mark non-applicable features N
 | I18N-A11Y-01 | Translated screen reader labels | Correct language and semantics |
 | I18N-A11Y-02 | RTL keyboard focus order | Logical and operable |
 
+| KE-PAY-01 | M-Pesa STK prompt cancelled | No premature paid status |
+| KE-PAY-02 | M-Pesa callback duplicated | One logical order/ledger event |
+| KE-PAY-03 | Reversal after successful callback | Reconciled customer access and ledger |
+| KE-PRIV-01 | Consent withdrawn | Actual collection respects user choice |
+| KE-PRIV-02 | Wrong-tenant record request | Denied server-side |
+| KE-TAX-01 | Refund and invoice | Correct tax/invoice reconciliation after review |
+| KE-L10N-01 | KES, phone and Africa/Nairobi date | Correct format and context |
+| KE-NET-01 | Slow network on older Android | Task recoverable, no duplicate write |
+| KE-USSD-01 | USSD session timeout | Clear restart/recovery |
+| KE-HEALTH-01 | Caregiver tries unrelated patient record | Access denied |
+
 Use [the bug report](../templates/bug-report.md) to report failures and [the retest template](../templates/retest.md) to verify fixes. Never target systems without permission.

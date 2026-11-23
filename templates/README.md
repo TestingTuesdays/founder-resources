@@ -8,6 +8,11 @@
 - [Device and network matrix](qa-device-matrix.md) — representative mobile, assistive technology and slow connectivity.
 - [Research consent planning](consent-and-research.md) — privacy, participant rights and safe recording.
 
+## Kenya and sector QA
+
+- [Kenya payment reconciliation](kenya-payment-reconciliation.md) — STK push, callbacks, refunds and settlement.
+- [Kenya regulatory decision log](kenya-regulatory-decision-log.md) — source, applicable activity, owner and unresolved questions.
+
 ## Product testing and releasing
 
 - [Bug report](bug-report.md) — reproducible issue with privacy-safe evidence

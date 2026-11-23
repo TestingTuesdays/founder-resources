@@ -68,4 +68,18 @@ Skills are reusable **human or AI-assisted procedures** with defined inputs, tes
 | [AI retrieval and citation QA](ai-rag-evaluation/SKILL.md) | Evidence-based founder audit |
 | [Multilingual accessibility](international-accessibility/SKILL.md) | Evidence-based founder audit |
 
+## Kenya-specific skills
+
+| Skill | Founder outcome |
+| --- | --- |
+| [M-Pesa and PSP testing](kenya-payments/SKILL.md) | Kenya-specific evidence and retest |
+| [ODPC data protection](kenya-data-protection/SKILL.md) | Kenya-specific evidence and retest |
+| [Fintech licensing discovery](kenya-fintech-compliance/SKILL.md) | Kenya-specific evidence and retest |
+| [Consumer/e-commerce QA](kenya-consumer-ecommerce/SKILL.md) | Kenya-specific evidence and retest |
+| [KRA and eTIMS readiness](kenya-tax-invoicing/SKILL.md) | Kenya-specific evidence and retest |
+| [Kenyan localization/accessibility](kenya-localization-access/SKILL.md) | Kenya-specific evidence and retest |
+| [SMS and USSD testing](kenya-sms-ussd/SKILL.md) | Kenya-specific evidence and retest |
+| [Digital health readiness](kenya-health-digital/SKILL.md) | Kenya-specific evidence and retest |
+| [Sector licensing discovery](kenya-sector-licensing/SKILL.md) | Kenya-specific evidence and retest |
+
 Copy [session and release templates](../templates/README.md) into **private** team records. Review personal-data safety before recording tests.

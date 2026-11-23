@@ -2,6 +2,11 @@
 
 [← Repository home](../README.md) · [Skills](../skills/README.md) · [Templates](../templates/README.md)
 
+## By market and product type
+
+- [Kenya founder guides](../kenya/README.md)
+- [App-specific testing playbooks](../app-types/README.md)
+
 ## First release
 
 [Start here](START-HERE.md) · [Launch week](founder-launch-week.md) · [Release gate](release-readiness.md) · [Testing Tuesdays session kit](testing-tuesdays-session-kit.md) · [Common mistakes](common-mistakes.md) · [Test catalog](test-case-catalog.md)

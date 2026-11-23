@@ -24,6 +24,12 @@ A **free public knowledge base** for founders testing and shipping SaaS, consume
 - **[Perk application playbook](perks/application-playbook.md)** — eligibility, real savings, expiration and billing safeguards.
 - **[Suggest a new resource, perk or skill](CONTRIBUTING.md)** — guided GitHub issue forms and pull-request review checklist.
 
+## Build for Kenya and your app category
+
+- **[Kenya-specific payments, compliance and localization](kenya/README.md)** — M-Pesa/Daraja, ODPC, KRA, fintech, consumer, SMS/USSD, health and sector regulation discovery.
+- **[15 app-type testing playbooks](app-types/README.md)** — fintech, e-commerce, health, education, agritech, logistics, proptech, food, travel, marketplace, civic, utilities, media, nonprofit and community apps.
+- **[Kenya-specific reusable skills](skills/README.md)** — actionable tests, evidence and regulator/provider source checks.
+
 ## Recently expanded quality topics
 
 - [Synthetic test data and fixtures](docs/test-data-management.md)
@@ -81,7 +87,7 @@ A **free public knowledge base** for founders testing and shipping SaaS, consume
 The library now includes practical skills covering deliverability, relevance, provider failures, software dependencies, pricing, mobile tracking and region-specific checkout; see the [skills index](skills/README.md).
 
 
-[**Tool directory**](tools/README.md) and [low-cost/local testing stack](tools/free-and-local.md) cover research, QA, accessibility, security, mobile, localization, payments, product analytics and AI. [**Skill library**](skills/README.md) provides 49 repeatable procedures with inputs, steps and evidence. [**Templates**](templates/README.md) help you track tasks, defects and retests.
+[**Tool directory**](tools/README.md) and [low-cost/local testing stack](tools/free-and-local.md) cover research, QA, accessibility, security, mobile, localization, payments, product analytics and AI. [**Skill library**](skills/README.md) provides 58 repeatable procedures with inputs, steps and evidence. [**Templates**](templates/README.md) help you track tasks, defects and retests.
 
 ### Minimum quality loop
 

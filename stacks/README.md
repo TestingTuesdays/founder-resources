@@ -11,3 +11,7 @@ Choose the appropriate implementation path; all paths still need real-user evide
 - [No-code and low-code founder QA starter](no-code.md)
 
 A stack recipe is **not** a universal deployment configuration. Evaluate release obligations and quality risks in the product's operating markets.
+
+## Choose by app category and market
+
+Technology stack does not determine sector obligations. See [15 app-type playbooks](../app-types/README.md) and [Kenya-specific founder checks](../kenya/README.md).
