@@ -19,3 +19,7 @@ Investors (canonical name, type, sector, stage, geography, status); funds (vinta
 ## Delivery issues
 
 Schema normalization; evidence backfill; sector coverage; current fund checks; official portfolio research; investor outreach data separation; static searchable UI; source freshness. No claim of exhaustive coverage until audited.
+
+## Tracking issue
+
+[GitHub issue #1 — qualified Kenya investor and startup data system](https://github.com/TestingTuesdays/founder-resources/issues/1) tracks source validation, normalization, sector coverage, local quality checks and a searchable directory. No GitHub Actions will be enabled.
