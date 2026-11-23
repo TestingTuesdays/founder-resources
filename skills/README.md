@@ -186,3 +186,9 @@ Copy [session and release templates](../templates/README.md) into **private** te
 
 - [Evaluate profitable markets](market-profitability-evaluation/SKILL.md)
 - [Enter and operate in another country](international-business-entry/SKILL.md)
+
+## Market economics resources
+
+- [Industry profitability deep dives](../markets/industry/README.md)
+- [Country operating and filing checklists](../markets/entry/README.md)
+- [Offline profitability calculator](../markets/local-calculator.md)

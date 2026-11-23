@@ -4,6 +4,12 @@
 
 **There is no universally most profitable country.** A profitable market for a product is the combination of reachable buyers, willingness to pay, contribution margin, acquisition costs, retention, competition, collection risk, tax and regulatory friction. A high-income country can be a poor market for a high-CAC, low-retention product.
 
+## Detailed market analysis
+
+- [Industry profitability deep dives](industry/README.md)
+- [Country business-entry checklists](entry/README.md)
+- [Local market profitability calculator](local-calculator.md)
+
 ## Start here
 
 - [Profitability framework and market ranking methodology](profitability-framework.md)

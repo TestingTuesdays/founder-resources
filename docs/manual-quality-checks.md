@@ -55,3 +55,12 @@ These are local heuristics, not live crawling, indexing proof or a guarantee of 
 Do not place hard-coded counts of skills, documents, tools or app types in headers and link labels. Prefer descriptive section names so navigation stays accurate when contributors add material. Procedural steps may remain numbered when order matters.
 
 Use the [quality evidence standard](quality-evidence-standard.md) to separate plans from executed results.
+
+## Market profitability local model
+
+```sh
+python3 scripts/market_profitability.py data/market-profitability-example.csv --json
+python3 -m unittest discover -s scripts -p 'test_market_profitability.py'
+```
+
+The fixtures are synthetic. These checks require no GitHub Actions and do not validate commercial assumptions, tax or market rankings.

@@ -1,0 +1,3 @@
+market,currency,price,variable_cost,cac,customers,fixed_cost,refund_loss,retained_fraction
+Synthetic Market A,USD,100,25,50,10,100,0,1
+Synthetic Market B,USD,60,10,15,10,100,0,1

@@ -4,6 +4,12 @@
 
 A **free public knowledge base** for founders testing and shipping SaaS, consumer web and mobile products, AI applications, marketplaces and connected hardware. Includes practical workflows, common errors, sample test cases, a large tool index, reusable skills and release templates.
 
+## Deeper market economics and business entry
+
+- [Industry-specific profitability playbooks](markets/industry/README.md) — SaaS, fintech, health, hardware, marketplaces, AI, commerce and education.
+- [Country-by-country business entry](markets/entry/README.md) — registration, taxes, banking, hiring, permits and pilot checks.
+- [Offline market profitability calculator](markets/local-calculator.md) — model your own CAC, margin, retention and fixed costs without hosted CI.
+
 ## Market profitability and international business entry
 
 - [Market profitability framework](markets/README.md) — compare contribution margin, CAC, retention, legal feasibility and cash cycles rather than GDP alone.

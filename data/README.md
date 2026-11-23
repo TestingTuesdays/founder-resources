@@ -27,3 +27,7 @@ All examples use fictitious identities and no production credentials. CSV files 
 ## Market profitability research
 
 - [Country and sector opportunity hypotheses](market-profitability-hypotheses.csv) — no unsupported profitability ranking.
+
+## Local market economics fixtures
+
+- [Synthetic profitability model inputs](market-profitability-example.csv) — for the [offline calculator](../markets/local-calculator.md); not real market data.
