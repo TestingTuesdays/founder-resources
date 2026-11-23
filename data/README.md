@@ -15,3 +15,7 @@ All examples use fictitious identities and no production credentials. CSV files 
 - [Social platform formats and sample cadence](social-platform-formats.csv)
 - [Founder learning resources](startup-learning.csv)
 - [Kenya investor catalog](../investors/catalog.csv)
+
+## Country and industry distribution data
+
+- [Country–industry opportunity matrix](distribution-market-matrix.csv) — explicitly unverified research hypotheses and suggested activation metrics.

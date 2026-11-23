@@ -4,6 +4,13 @@
 
 A **free public knowledge base** for founders testing and shipping SaaS, consumer web and mobile products, AI applications, marketplaces and connected hardware. Includes practical workflows, common errors, sample test cases, a large tool index, reusable skills and release templates.
 
+## Distribution by country, industry and channel
+
+- [Country-by-country distribution playbooks](distribution/countries/README.md) — market entry, languages, payments, regulatory questions and local channels.
+- [Industry distribution playbooks](distribution/industries/README.md) — sector content formats, compliance risks and retention metrics.
+- [Channel distribution and execution skills](distribution/channels/README.md) — search, short video, communities, newsletters, partnerships, events, ads, app stores, PR and developer ecosystems.
+- [Country–industry distribution research matrix](data/distribution-market-matrix.csv) — example hypotheses with explicit verification status.
+
 ## Go-to-market, fundraising and startup education
 
 - [GTM, launch and social media operations](growth/README.md) — X/Twitter, TikTok, UGC, paid acquisition, conversion, retention and network effects.

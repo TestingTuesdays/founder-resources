@@ -7,6 +7,10 @@
 - [SEO/AEO/metadata and UI audit](design-growth-audit.md) — evidence, priority, owner and retest.
 - [UI reference review](ui-reference-review.md) — original design inspiration without copying.
 
+## Distribution by market and industry
+
+- [Country × industry × channel experiment](distribution-experiment.md) — localization, evidence, creative, activation and stop rules.
+
 ## Marketing and fundraising
 
 - [Marketing experiment and conversion tracker](marketing-experiment.md)

@@ -167,3 +167,8 @@ Copy [session and release templates](../templates/README.md) into **private** te
 - [US–Kenya cross-border](us-kenya-crossborder/SKILL.md)
 - [Kenya company tax and filing](kenya-incorporation-tax/SKILL.md)
 - [Investor qualification](investor-qualification/SKILL.md)
+
+## Content distribution and international market-entry skills
+
+- [Country × industry × channel planning](distribution-market-planning/SKILL.md)
+- [Channel-specific distribution skills](../distribution/channels/README.md) — search, short video, communities, lifecycle email, partnerships, events, paid ads, app stores, press and developer ecosystems.

@@ -2,6 +2,13 @@
 
 [← Repository home](../README.md) · [Skills](../skills/README.md) · [Templates](../templates/README.md)
 
+## International distribution and industry marketing
+
+- [Distribution hub](../distribution/README.md)
+- [Country-by-country playbooks](../distribution/countries/README.md)
+- [Industry playbooks](../distribution/industries/README.md)
+- [Content channel playbooks](../distribution/channels/README.md)
+
 ## Growth, investor data and Kenya company operations
 
 - [Go-to-market and startup education](../growth/README.md)

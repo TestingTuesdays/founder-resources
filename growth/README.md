@@ -26,3 +26,11 @@ Use these guides to move from positioning to launch, channel learning, retention
 - [Kenya investor database](../investors/README.md)
 
 Record claims and source dates before publication, especially advertising policies, investment eligibility and tax obligations.
+
+## Distribution research and execution
+
+- [Country, industry and channel playbooks](../distribution/README.md)
+- [Country market-entry guides](../distribution/countries/README.md)
+- [Industry-specific growth guides](../distribution/industries/README.md)
+- [Channel playbooks and reusable skills](../distribution/channels/README.md)
+- [Country–industry market research matrix](../data/distribution-market-matrix.csv)
