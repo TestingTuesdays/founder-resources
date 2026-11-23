@@ -107,4 +107,16 @@ Skills are reusable **human or AI-assisted procedures** with defined inputs, tes
 | [Navigation and information architecture](navigation-information-architecture/SKILL.md) | Actionable audit and retest |
 | [UI critique and benchmarking](ui-critique-and-benchmark/SKILL.md) | Actionable audit and retest |
 
+## Further SEO and product design skills
+
+| Skill | Focus |
+| --- | --- |
+| [SEO content architecture](seo-content-architecture/SKILL.md) | Review and comparable retest |
+| [Structured data and schema markup](schema-markup-review/SKILL.md) | Review and comparable retest |
+| [Mobile UX heuristics](mobile-ux-heuristics/SKILL.md) | Review and comparable retest |
+| [Design critique facilitation](design-critique-facilitation/SKILL.md) | Review and comparable retest |
+| [Kenya local SEO](local-seo-kenya/SKILL.md) | Review and comparable retest |
+| [Visual performance budgets](performance-design-budget/SKILL.md) | Review and comparable retest |
+| [Trust signals and product claims](trust-signals-claims/SKILL.md) | Review and comparable retest |
+
 Copy [session and release templates](../templates/README.md) into **private** team records. Review personal-data safety before recording tests.

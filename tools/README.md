@@ -172,3 +172,7 @@ Check country-specific integration eligibility, data handling, cost and producti
 
 - [24 curated inspiration websites](../inspiration/README.md) — product flows, landing pages, components, visual portfolios and design systems.
 - [Quick design reference guide](design-inspiration.md) — which resource to use for a given task.
+
+## Local metadata auditing
+
+- [Python static HTML metadata auditor](local-seo-audit.md) — zero hosted CI minutes; checks titles, H1, description, canonical, Open Graph, alt attributes and JSON-LD syntax.

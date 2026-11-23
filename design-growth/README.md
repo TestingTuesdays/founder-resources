@@ -14,3 +14,15 @@ These resources cover **search discoverability, truthful AI-search visibility, v
 - [UI critique, inspiration research and ethical benchmarking](ui-critique-and-benchmark.md) · [Reusable skill](../skills/ui-critique-and-benchmark/SKILL.md)
 
 Use the [copyable audit template](../templates/design-growth-audit.md) to capture evidence and retest. Prioritize real user success and trustworthy content over keyword stuffing or decorative UI.
+
+## Additional specialist audits
+
+- [SEO content architecture](seo-content-architecture.md) · [Skill](../skills/seo-content-architecture/SKILL.md)
+- [Structured data and schema markup](schema-markup-review.md) · [Skill](../skills/schema-markup-review/SKILL.md)
+- [Mobile UX heuristics](mobile-ux-heuristics.md) · [Skill](../skills/mobile-ux-heuristics/SKILL.md)
+- [Design critique facilitation](design-critique-facilitation.md) · [Skill](../skills/design-critique-facilitation/SKILL.md)
+- [Kenya local SEO](local-seo-kenya.md) · [Skill](../skills/local-seo-kenya/SKILL.md)
+- [Visual performance budgets](performance-design-budget.md) · [Skill](../skills/performance-design-budget/SKILL.md)
+- [Trust signals and product claims](trust-signals-claims.md) · [Skill](../skills/trust-signals-claims/SKILL.md)
+
+[Local HTML metadata auditor](../tools/local-seo-audit.md) can flag common omissions before human review.

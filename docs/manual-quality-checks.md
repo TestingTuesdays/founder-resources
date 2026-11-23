@@ -38,3 +38,14 @@ Review diffs in GitHub; for new link targets, click relative links. Run both scr
 - Check every perks row against the readable directory and distinguish confirmed terms from unverified leads.
 - Test that issue templates open through GitHub's **New issue** interface; links to raw YAML are source references, not forms.
 - Do not re-enable hosted GitHub Actions without explicit approval.
+
+## Local HTML metadata check
+
+For an HTML export or saved server-rendered page, run:
+
+```sh
+python3 scripts/audit_static_html.py path/to/site --json
+python3 -m unittest discover -s scripts -p 'test_audit_static_html.py'
+```
+
+These are local heuristics, not live crawling, indexing proof or a guarantee of search rankings. Keep GitHub Actions disabled.
