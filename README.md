@@ -2,32 +2,49 @@
 
 **Working products. Real users. Better releases.**
 
-A public, practical quality handbook for founders shipping web apps, SaaS, consumer mobile apps and AI products. Built by the Testing Tuesdays community in Nairobi, with clear paths from user testing to production readiness.
+An open, navigable founder handbook for **testing, improving and shipping quality products**, from a first MVP to SaaS, consumer web, mobile, AI and connected hardware. Guidance includes mistakes to avoid, test scenarios, official tools, reusable skills and templates. This public repository does **not** store private testing reports.
 
-## Start here
+## Start in 5 minutes
 
-1. [Founder start guide](docs/START-HERE.md) — choose your testing path and run a one-hour audit.
-2. [Release readiness](docs/release-readiness.md) — go/no-go checklist for production.
-3. [Common mistakes](docs/common-mistakes.md) — errors founders repeat and how to avoid them.
-4. [Test case catalog](docs/test-case-catalog.md) — repeatable test scenarios for everyday products.
-5. [Tool directory](tools/README.md) — QA, usability, accessibility, localization, performance, security and app stores.
-6. [Reusable skills](skills/README.md) — step-by-step workflows for testing and retesting.
+1. [Choose the right testing path](docs/START-HERE.md) for your product.
+2. [Run the standard test cases](docs/test-case-catalog.md) and [avoid common mistakes](docs/common-mistakes.md).
+3. [Compare tools by category](tools/README.md) rather than by advertising.
+4. [Follow a reusable skill](skills/README.md) and [copy a template](templates/README.md).
+5. [Use the release gate](docs/release-readiness.md), ship a fix and **retest**.
 
-## Topics
+## Topic guides
 
-- [Usability research](docs/usability.md) · [Automated QA](docs/qa-automation.md) · [Accessibility](docs/accessibility.md)
-- [Security and privacy](docs/security-privacy.md) · [Performance and reliability](docs/performance.md)
-- [Localization](docs/localization.md) · [SaaS and billing](docs/saas.md)
-- [Mobile app stores](docs/mobile-app-stores.md) · [AI product evaluation](docs/ai-evaluation.md)
+| Test or build concern | Practical guide |
+| --- | --- |
+| Usability, discovery and research | [Usability & user testing](docs/usability.md) |
+| Unit, API, browser and regression tests | [QA & automation](docs/qa-automation.md) |
+| Inclusive design and screen readers | [Accessibility](docs/accessibility.md) |
+| Load, crashes, latency and recovery | [Performance & reliability](docs/performance.md) |
+| Tenant boundaries, access and sensitive data | [Security & privacy](docs/security-privacy.md) |
+| Translation, RTL and international formats | [Localization](docs/localization.md) |
+| Recurring billing, teams and permissions | [SaaS](docs/saas.md) |
+| App review, beta tracks and store releases | [Mobile & app stores](docs/mobile-app-stores.md) |
+| Prompts, RAG and agents | [AI evaluations](docs/ai-evaluation.md) |
+| Product metrics, funnels and experiments | [Analytics & experimentation](docs/analytics-experiments.md) |
+| Marketplaces, communities and UGC | [Consumer & marketplace](docs/consumer-marketplace.md) |
+| IoT, firmware and device safety | [Hardware & connected products](docs/hardware-connected.md) |
+| Progressive practice and role skills | [Learning pathways](docs/learning-paths.md) |
+
+## Quick resources
+
+- [80+ testing products, standards and resources](tools/README.md) (category-indexed; vendor inclusion does not imply endorsement).
+- [Reusable QA and research skills](skills/README.md) with inputs, procedures, evidence and completion criteria.
+- [Copyable bug reports, test cases, session plans and launch checklists](templates/README.md).
+- [How to contribute a new resource or skill](CONTRIBUTING.md).
 
 ## About Testing Tuesdays
 
-Testing Tuesdays is a contribution-first Nairobi product-testing community developed with Web3Clubs Nairobi. Founders bring **functional products**, contribute useful tests of other teams' workflows, receive reviewed findings, ship fixes and return for comparable retests. Founder admission is manually reviewed; a referral or RSVP is not automatic acceptance. [Program overview](https://app.notion.com/p/420c1f4ba97e81528057d64c6a5115c0).
+Testing Tuesdays is a **Nairobi-based contribution-first product-testing community** developed with Web3Clubs Nairobi. Founders bring functional products, help test another team's real workflow, receive reviewed findings, ship fixes and return for comparable retests. This is about improving real products—not pitch-only demos.
 
-**Founders:** do not post credentials, private builds with unrestricted access, customer data or identifiable participant research in public GitHub issues. The materials are educational guidance, not professional security, legal or regulatory certification.
+A founder referral or event RSVP is **not** automatic admission to the curated cohort. Founder acceptance and private testing data are handled separately from this public resource library. See the [program's Notion home](https://app.notion.com/p/420c1f4ba97e81528057d64c6a5115c0) and [TestingTuesdays organization](https://github.com/TestingTuesdays).
 
-## Contribute
+## Guidance, not certification
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit tools, broken links, examples and corrections. We prioritize primary sources, practical steps, accessibility and real-world applicability. No paid placement or unverifiable endorsements.
+Use only permissioned environments and synthetic test data. Tools and tutorials do not by themselves prove WCAG compliance, security certification or app-store approval. Platform policies, legal obligations, pricing and free plans change; verify current official sources before launch.
 
-_Last substantially reviewed: 2026-11-23. Tool pricing, platform policies and standards evolve; verify current documentation before launch._
+_Last curated: November 23, 2026. Contributions and corrections welcome._
