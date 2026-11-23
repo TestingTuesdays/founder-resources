@@ -45,4 +45,38 @@ These are *examples*, not universal requirements. Mark non-applicable features N
 | MKT-01 | No supply/no search results | Useful fallback |
 | MKT-02 | Report abusive content/block user | Action enforced and logged |
 
+| AUTH-06 | Removed workspace user accesses old invitation or shared link | Access revoked server-side |
+| AUTH-07 | Different tenant guesses export or object ID | No unauthorized data disclosed |
+| AUTH-08 | MFA recovery flow after device loss | Identity verified without silent bypass |
+| PAY-01 | Provider posts duplicated payment webhook | Single logical ledger transition |
+| PAY-02 | Refund after downgrade or cancellation | Entitlements and invoices reconcile |
+| PAY-03 | Checkout succeeds but redirect is lost | Server reconciles independently |
+| PAY-04 | Billing event arrives out of order | Consistent final state |
+| STORE-01 | App reviewer signs in with supplied demo mode | Working feature access |
+| STORE-02 | App listing screenshots mismatch shipped build | Metadata corrected before submission |
+| STORE-03 | Permission revoked after installation | Graceful recovery |
+| FLAG-01 | Ineligible user forces feature API request | Backend denies or excludes |
+| FLAG-02 | Kill switch disabled risky feature | No unsafe writes continue |
+| FLAG-03 | Feature flag service unavailable | Safe documented fallback |
+| VIS-01 | Small-device pricing page with large font | No clipped CTA |
+| VIS-02 | Long RTL translation in modal | Readable layout and focus |
+| VIS-03 | Dark mode and image fallback | Contrast and functional interactions preserved |
+| PRIV-01 | User requests data export | Complete authorized scope |
+| PRIV-02 | User deletes account and tries old session | Revoked per documented policy |
+| PRIV-03 | Unauthorized actor requests another user's deletion | Denied and auditable |
+| DR-01 | Restore snapshot into isolated environment | Integrity verified |
+| DR-02 | Restore includes queued webhook state | No duplicate external side effects |
+| AIAG-01 | Retrieved page injects tool instructions | Untrusted content cannot override authorization |
+| AIAG-02 | Agent writes to another tenant's record | Tool service rejects operation |
+| AIAG-03 | Model tool repeatedly times out | Bounded retry and safe state |
+| FORM-01 | Screen reader identifies each field error | Error associated with field |
+| FORM-02 | Offline during submission and reconnect | No loss or duplicate record |
+| FORM-03 | Overlong/international name or address | Valid inputs retained and processed |
+| HELP-01 | Support user requests account access | Safe identity verification |
+| HELP-02 | Critical support ticket escalates | Correct owner, status and timeframe |
+| WEB3-01 | Wallet rejects signature | UI recovers, nothing submitted |
+| WEB3-02 | Wrong chain or transaction reverts | Correct status and next action |
+| CONTENT-01 | Knowledge-base page renamed | Internal links updated |
+| CONTENT-02 | Blog claims credit amount without primary evidence | Claim withheld or labeled unverified |
+
 Use [the bug report](../templates/bug-report.md) to report failures and [the retest template](../templates/retest.md) to verify fixes. Never target systems without permission.

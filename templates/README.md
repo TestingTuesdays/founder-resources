@@ -10,6 +10,14 @@
 - [Release checklist](release-checklist.md) — production go/no-go
 - [Retest & ship-back](retest.md) — verified improvement
 
+## Production-risk templates
+
+- [Permission matrix](authorization-matrix.md) — who can do what, and proof of denial
+- [Payment reconciliation](payment-reconciliation.md) — transactions, webhooks, refunds and entitlements
+- [Incident drill record](recovery-drill.md) — observed restore time and data integrity
+- [Feature rollout plan](feature-rollout.md) — owner, cohort, guardrail, stop and rollback
+- [App-store review packet](app-store-review.md) — reviewer access and submission evidence
+
 ## Operations and release evidence
 
 - [Low-network scenario report](network-test.md) — device, bandwidth, latency, retries and recovery

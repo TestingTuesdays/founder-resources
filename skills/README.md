@@ -30,4 +30,21 @@ Skills are reusable **human or AI-assisted procedures** with defined inputs, tes
 | [Founder QA scorecard](release-quality-scorecard/SKILL.md) | Track tested tasks, severity and real retests |
 | [Trust & abuse audit](trust-abuse-audit/SKILL.md) | Test blocking, reporting, access and appeals |
 
+## Specialized production testing skills
+
+| Skill | Goal |
+| --- | --- |
+| [Authorization and tenant checks](authz-matrix/SKILL.md) | Repeatable verification and recorded retest |
+| [Payment webhook replay](billing-webhook-replay/SKILL.md) | Repeatable verification and recorded retest |
+| [App review resubmission](store-review-recovery/SKILL.md) | Repeatable verification and recorded retest |
+| [Visual regression audit](visual-diff/SKILL.md) | Repeatable verification and recorded retest |
+| [Feature flag rollout](feature-flag-rollout/SKILL.md) | Repeatable verification and recorded retest |
+| [Account deletion audit](account-deletion/SKILL.md) | Repeatable verification and recorded retest |
+| [Restore and recovery drill](restore-drill/SKILL.md) | Repeatable verification and recorded retest |
+| [Agent tool safety](agent-tool-safety/SKILL.md) | Repeatable verification and recorded retest |
+| [Documentation fact check](content-review/SKILL.md) | Repeatable verification and recorded retest |
+| [Support pathway rehearsal](support-path/SKILL.md) | Repeatable verification and recorded retest |
+| [Wallet transaction UX](wallet-transaction-ux/SKILL.md) | Repeatable verification and recorded retest |
+| [Accessible form testing](form-failure-states/SKILL.md) | Repeatable verification and recorded retest |
+
 Copy [session and release templates](../templates/README.md) into **private** team records. Review personal-data safety before recording tests.

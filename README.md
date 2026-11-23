@@ -58,6 +58,11 @@ A **free public knowledge base** for founders testing and shipping SaaS, consume
 - [Hardware & connected devices](docs/hardware-connected.md)
 - [Legal/regulatory considerations](docs/product-compliance.md)
 
+## Practical stack recipes and standards
+
+- **[Testing recipes by development stack](stacks/README.md):** Next.js / React, Flutter, Expo / React Native, API backends and no-code.
+- **[Primary standards and official references](docs/standards-and-reference-library.md):** web accessibility, API threats, app-store rules and AI risk.
+
 ## Skills, tools and templates
 
 [**Tool directory**](tools/README.md) and [low-cost/local testing stack](tools/free-and-local.md) cover research, QA, accessibility, security, mobile, localization, payments, product analytics and AI. [**Skill library**](skills/README.md) provides 18 repeatable procedures with inputs, steps and evidence. [**Templates**](templates/README.md) help you track tasks, defects and retests.
