@@ -96,4 +96,22 @@ These are *examples*, not universal requirements. Mark non-applicable features N
 | REGPAY-02 | Local payment fails and retries | Safe single outcome |
 | REGPAY-03 | Currency and tax rounding | Exact invoice consistency |
 
+| DATA-01 | Deterministic seed and cleanup | Repeatable test environment without real customer data |
+| DATA-02 | Staging notifications | Cannot accidentally reach real users |
+| BROWSER-01 | Older mobile browser and keyboard | Primary flow works or has clear fallback |
+| BROWSER-02 | Unsupported browser API | Safe degraded experience |
+| API-VER-01 | Old client and new server | Compatible or supported upgrade path |
+| API-VER-02 | Deprecation and rollback | No unexpected broken client |
+| STORE-ASSET-01 | Store screenshots and binary | Truthful feature match |
+| STORE-ASSET-02 | Localized listing | Accurate and readable target-locale metadata |
+| OBS-01 | Error logging | No passwords, secrets or sensitive payloads |
+| OBS-02 | Controlled failure alert | Owner notified with useful redacted context |
+| ANALYTICS-01 | One logical user action | One defined event |
+| ANALYTICS-02 | Consent withdrawal | No prohibited tracking |
+| RAG-01 | Unanswerable question | Uncertainty or abstention, no fake citation |
+| RAG-02 | Private document in index | No cross-user retrieval |
+| RAG-03 | Stale cited source | Correct version or freshness warning |
+| I18N-A11Y-01 | Translated screen reader labels | Correct language and semantics |
+| I18N-A11Y-02 | RTL keyboard focus order | Logical and operable |
+
 Use [the bug report](../templates/bug-report.md) to report failures and [the retest template](../templates/retest.md) to verify fixes. Never target systems without permission.

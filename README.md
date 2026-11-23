@@ -19,10 +19,23 @@ A **free public knowledge base** for founders testing and shipping SaaS, consume
 
 ## Founder perks and contribution routes
 
-- **[Browse startup credits and discounts](perks/README.md)** — 36 reviewed programs or leads, clearly labeled by evidence level.
+- **[Browse startup credits and discounts](perks/README.md)** — 43 cataloged programs or opportunities, with different verification levels, clearly labeled by evidence level.
 - **[Kenya and Nairobi shortlist](perks/kenya-nairobi.md)** — country and accelerator considerations.
 - **[Perk application playbook](perks/application-playbook.md)** — eligibility, real savings, expiration and billing safeguards.
 - **[Suggest a new resource, perk or skill](CONTRIBUTING.md)** — guided GitHub issue forms and pull-request review checklist.
+
+## Recently expanded quality topics
+
+- [Synthetic test data and fixtures](docs/test-data-management.md)
+- [Browser and OS compatibility](docs/browser-compatibility.md)
+- [API versioning and deprecation](docs/api-versioning.md)
+- [App-store listing assets](docs/app-store-assets.md)
+- [Privacy-safe observability](docs/observability-privacy.md)
+- [Product analytics data quality](docs/product-analytics-quality.md)
+- [AI retrieval and citation QA](docs/ai-rag-evaluation.md)
+- [Multilingual accessibility](docs/international-accessibility.md)
+
+[Browse all guides](docs/README.md) · [All skills](skills/README.md) · [Founder perks](perks/README.md).
 
 ## Browse by topic
 
@@ -68,7 +81,7 @@ A **free public knowledge base** for founders testing and shipping SaaS, consume
 The library now includes practical skills covering deliverability, relevance, provider failures, software dependencies, pricing, mobile tracking and region-specific checkout; see the [skills index](skills/README.md).
 
 
-[**Tool directory**](tools/README.md) and [low-cost/local testing stack](tools/free-and-local.md) cover research, QA, accessibility, security, mobile, localization, payments, product analytics and AI. [**Skill library**](skills/README.md) provides 18 repeatable procedures with inputs, steps and evidence. [**Templates**](templates/README.md) help you track tasks, defects and retests.
+[**Tool directory**](tools/README.md) and [low-cost/local testing stack](tools/free-and-local.md) cover research, QA, accessibility, security, mobile, localization, payments, product analytics and AI. [**Skill library**](skills/README.md) provides 49 repeatable procedures with inputs, steps and evidence. [**Templates**](templates/README.md) help you track tasks, defects and retests.
 
 ### Minimum quality loop
 
@@ -82,7 +95,7 @@ Testing Tuesdays is a contribution-first Nairobi product-testing community devel
 
 ## Contribute and keep this current
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) and the [issue templates](.github/ISSUE_TEMPLATE/config.yml). Report outdated documentation, broken links, useful tests, skills and regional release considerations. The CI workflow validates **relative Markdown links**; external services, pricing, legal rules and app-store requirements must be rechecked manually against authoritative sources.
+See [CONTRIBUTING.md](CONTRIBUTING.md) and the [issue templates](.github/ISSUE_TEMPLATE/config.yml). Report outdated documentation, broken links, useful tests, skills and regional release considerations. **GitHub Actions are intentionally disabled** to conserve minutes. Use [local manual checks](docs/manual-quality-checks.md) for link/catalog validation; provider terms and policies still require manual source review.
 
 **Privacy and safety:** no real customer data, API keys, participant recordings or private founder reports in public GitHub issues. Security testing is for authorized systems only. This library is guidance, not a security, accessibility, regulatory or store-approval certification.
 

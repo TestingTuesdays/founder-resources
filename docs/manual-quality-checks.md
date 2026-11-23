@@ -30,3 +30,11 @@ These checks consume no GitHub-hosted runner minutes. They verify **local Markdo
 ## Review without automation
 
 Review diffs in GitHub; for new link targets, click relative links. Run both scripts on a contributor's local machine and paste the result in PR description. Maintainers can merge after manual review; CI is not a dependency. Review again if provider terms change.
+
+## Audit consistency before publishing
+
+- Compare README counts and navigation with the actual repository tree; never preserve stale totals.
+- Check every skill's frontmatter `name`, `description`, topic link, required inputs, safety limits and expected output.
+- Check every perks row against the readable directory and distinguish confirmed terms from unverified leads.
+- Test that issue templates open through GitHub's **New issue** interface; links to raw YAML are source references, not forms.
+- Do not re-enable hosted GitHub Actions without explicit approval.

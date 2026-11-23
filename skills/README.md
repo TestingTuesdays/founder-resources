@@ -55,4 +55,17 @@ Skills are reusable **human or AI-assisted procedures** with defined inputs, tes
 | [Error and recovery state audit](error-state-inventory/SKILL.md) | Observable failures and recovery checks |
 | [Founder launch-week readiness](launch-week-readiness/SKILL.md) | Approved release decision and actual monitoring |
 
+## New quality assurance skills
+
+| Skill | Focus |
+| --- | --- |
+| [Synthetic test data and fixtures](test-data-management/SKILL.md) | Evidence-based founder audit |
+| [Browser and OS compatibility](browser-compatibility/SKILL.md) | Evidence-based founder audit |
+| [API versioning and deprecation](api-versioning/SKILL.md) | Evidence-based founder audit |
+| [App-store listing assets](app-store-assets/SKILL.md) | Evidence-based founder audit |
+| [Privacy-safe observability](observability-privacy/SKILL.md) | Evidence-based founder audit |
+| [Product analytics data quality](product-analytics-quality/SKILL.md) | Evidence-based founder audit |
+| [AI retrieval and citation QA](ai-rag-evaluation/SKILL.md) | Evidence-based founder audit |
+| [Multilingual accessibility](international-accessibility/SKILL.md) | Evidence-based founder audit |
+
 Copy [session and release templates](../templates/README.md) into **private** team records. Review personal-data safety before recording tests.
