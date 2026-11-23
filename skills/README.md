@@ -172,3 +172,12 @@ Copy [session and release templates](../templates/README.md) into **private** te
 
 - [Country × industry × channel planning](distribution-market-planning/SKILL.md)
 - [Channel-specific distribution skills](../distribution/channels/README.md) — search, short video, communities, lifecycle email, partnerships, events, paid ads, app stores, press and developer ecosystems.
+
+## Distribution operations skills
+
+- [Country launch research](country-launch-research/SKILL.md)
+- [Local-language creative](local-language-creative/SKILL.md)
+- [Partner distribution](partner-distribution/SKILL.md)
+- [Creator distribution](creator-distribution/SKILL.md)
+- [Cross-channel attribution](distribution-measurement/SKILL.md)
+- [Country/sector marketing compliance](country-sector-compliance/SKILL.md)

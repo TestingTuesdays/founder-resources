@@ -34,3 +34,8 @@ Record claims and source dates before publication, especially advertising polici
 - [Industry-specific growth guides](../distribution/industries/README.md)
 - [Channel playbooks and reusable skills](../distribution/channels/README.md)
 - [Country–industry market research matrix](../data/distribution-market-matrix.csv)
+
+## Applied international distribution
+
+- [Operational workflows and skills](../distribution/operations/README.md)
+- [Worked campaign examples](../distribution/campaigns/README.md)

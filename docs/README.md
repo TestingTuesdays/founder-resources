@@ -2,6 +2,11 @@
 
 [← Repository home](../README.md) · [Skills](../skills/README.md) · [Templates](../templates/README.md)
 
+## Distribution research quality
+
+- [Evidence qualification for country/industry claims](distribution-source-qualification.md)
+- [Worked launch campaign examples](../distribution/campaigns/README.md)
+
 ## International distribution and industry marketing
 
 - [Distribution hub](../distribution/README.md)

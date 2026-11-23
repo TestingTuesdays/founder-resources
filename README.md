@@ -4,6 +4,13 @@
 
 A **free public knowledge base** for founders testing and shipping SaaS, consumer web and mobile products, AI applications, marketplaces and connected hardware. Includes practical workflows, common errors, sample test cases, a large tool index, reusable skills and release templates.
 
+## Distribution execution and worked examples
+
+- [Distribution operations](distribution/operations/README.md) — market validation, localization, partners, creators, attribution and marketing compliance.
+- [Worked campaign examples](distribution/campaigns/README.md) — Kenya fintech/healthtech, Nigeria SaaS, India developer tools, Germany IoT and Indonesia e-commerce.
+- [Distribution evidence qualification](docs/distribution-source-qualification.md) — distinguish hypotheses, observed tests and verified policies.
+- [Distribution experiment dataset](data/distribution-experiments.csv) — explicitly unexecuted starter experiments.
+
 ## Distribution by country, industry and channel
 
 - [Country-by-country distribution playbooks](distribution/countries/README.md) — market entry, languages, payments, regulatory questions and local channels.

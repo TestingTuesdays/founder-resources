@@ -1,0 +1,7 @@
+experiment_id,country,industry,channel,persona,hypothesis,activation_event,guardrail,source_status,execution_status
+"EX-KEN-FIN-01","Kenya","Fintech","Search and short video","Merchant","Verified reconciliation guide leads to qualified trial","first_reconciled_order","No misleading financial claims","Unverified market hypothesis","Not attempted"
+"EX-KEN-HEALTH-01","Kenya","Healthtech","Educational video and partner","Caregiver","Clinician-reviewed content drives safe onboarding","first_care_plan","No medical claims without review","Unverified market hypothesis","Not attempted"
+"EX-NGA-SAAS-01","Nigeria","B2B SaaS","Search and webinar","Operations manager","Workflow demo leads to activated teams","first_approval_flow","No fabricated ROI","Unverified market hypothesis","Not attempted"
+"EX-IND-DEV-01","India","Developer tools","GitHub and YouTube","Developer","Runnable tutorial increases successful integration","first_api_integration","No exposed secrets","Unverified market hypothesis","Not attempted"
+"EX-DEU-IOT-01","Germany","Hardware IoT","Technical search and events","Technical buyer","Bench test content creates qualified pilots","first_installation_trial","No unsupported certification","Unverified market hypothesis","Not attempted"
+"EX-IDN-ECOM-01","Indonesia","E-commerce","UGC and short video","Mobile shopper","Authentic price transparency improves delivered orders","first_delivered_order","No fake reviews","Unverified market hypothesis","Not attempted"

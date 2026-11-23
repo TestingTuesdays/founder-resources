@@ -19,3 +19,7 @@ All examples use fictitious identities and no production credentials. CSV files 
 ## Country and industry distribution data
 
 - [Country–industry opportunity matrix](distribution-market-matrix.csv) — explicitly unverified research hypotheses and suggested activation metrics.
+
+## Distribution experiment records
+
+- [Example experiments](distribution-experiments.csv) — all explicitly marked not attempted; never present as observed performance.

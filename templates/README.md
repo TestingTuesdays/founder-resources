@@ -7,6 +7,11 @@
 - [SEO/AEO/metadata and UI audit](design-growth-audit.md) — evidence, priority, owner and retest.
 - [UI reference review](ui-reference-review.md) — original design inspiration without copying.
 
+## Market-entry and content production
+
+- [Country launch readiness](country-launch-checklist.md) — local research, provider eligibility and campaign guardrails.
+- [Multi-market creative brief](multimarket-content-brief.md) — script, rights, claims, localization and measurement.
+
 ## Distribution by market and industry
 
 - [Country × industry × channel experiment](distribution-experiment.md) — localization, evidence, creative, activation and stop rules.

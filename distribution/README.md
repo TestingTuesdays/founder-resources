@@ -16,3 +16,12 @@ Use **country × industry × channel** to design a launch plan. Every recommenda
 For a Kenyan health app, read Kenya → Healthtech → Search/short video/partnerships. For an Indian developer tool, read India → B2B SaaS/AI → Developer ecosystem/search. Validate local product fit, actual buyer, consent, sector advertising and payment availability before launch.
 
 **Quality gate:** Do not infer market size, preferred platform, regulatory approval or payment provider availability from this library. Use current primary sources and report actual measured activation and retention.
+
+## Practical launch operations
+
+- [Distribution operations and specialist skills](operations/README.md)
+- [Worked country × industry campaigns](campaigns/README.md)
+- [Distribution source qualification](../docs/distribution-source-qualification.md)
+- [Structured experiment examples](../data/distribution-experiments.csv)
+- [Country launch checklist](../templates/country-launch-checklist.md)
+- [Multi-market content brief](../templates/multimarket-content-brief.md)
