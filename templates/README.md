@@ -2,6 +2,12 @@
 
 [← Home](../README.md) · [Contribute](../CONTRIBUTING.md) · [Startup perks](../perks/README.md)
 
+## Testing Tuesdays session and release planning
+
+- [Issue triage board](issue-triage-board.md) — tasks, severity, owner, ship and retest.
+- [Device and network matrix](qa-device-matrix.md) — representative mobile, assistive technology and slow connectivity.
+- [Research consent planning](consent-and-research.md) — privacy, participant rights and safe recording.
+
 ## Product testing and releasing
 
 - [Bug report](bug-report.md) — reproducible issue with privacy-safe evidence

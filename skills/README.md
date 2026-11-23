@@ -47,4 +47,12 @@ Skills are reusable **human or AI-assisted procedures** with defined inputs, tes
 | [Wallet transaction UX](wallet-transaction-ux/SKILL.md) | Repeatable verification and recorded retest |
 | [Accessible form testing](form-failure-states/SKILL.md) | Repeatable verification and recorded retest |
 
+## Session and launch skills
+
+| Skill | Evidence required |
+| --- | --- |
+| [Facilitate a Testing Tuesdays session](session-facilitation/SKILL.md) | Task outcomes and assigned retests |
+| [Error and recovery state audit](error-state-inventory/SKILL.md) | Observable failures and recovery checks |
+| [Founder launch-week readiness](launch-week-readiness/SKILL.md) | Approved release decision and actual monitoring |
+
 Copy [session and release templates](../templates/README.md) into **private** team records. Review personal-data safety before recording tests.

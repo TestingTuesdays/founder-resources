@@ -155,3 +155,15 @@ Review current price/seat limits, supported devices and browsers, data-processin
 
 - [Local and open-source testing stack](free-and-local.md) — QA without hosted runner minutes.
 - [Manual documentation verification](../docs/manual-quality-checks.md) — check links and catalog format locally.
+
+## Further official tools and reference libraries
+
+| Area | Sources |
+| --- | --- |
+| Email reputation and verification | [Google Postmaster Tools](https://postmaster.google.com/), [Google sender guidelines](https://support.google.com/a/answer/81126), [SendGrid docs](https://docs.sendgrid.com/) |
+| Search and retrieval | [Algolia](https://www.algolia.com/doc/), [Meilisearch](https://www.meilisearch.com/docs), [OpenSearch](https://opensearch.org/docs/), [Elasticsearch](https://www.elastic.co/guide/) |
+| Supply-chain safety | [OSV](https://osv.dev/), [OpenSSF Scorecard](https://scorecard.dev/), [SPDX](https://spdx.dev/), [SLSA](https://slsa.dev/) |
+| Network resilience | [Toxiproxy](https://github.com/Shopify/toxiproxy), [Google SRE Workbook](https://sre.google/workbook/table-of-contents/) |
+| Africa payment APIs | [Paystack](https://paystack.com/docs/), [Flutterwave](https://developer.flutterwave.com/), [Safaricom Daraja](https://developer.safaricom.co.ke/) |
+
+Check country-specific integration eligibility, data handling, cost and production limits independently. Listing a provider is not an endorsement or a verified startup credit.

@@ -6,6 +6,13 @@
 
 Testing Tuesdays is a Nairobi-based, contribution-first testing community developed with Web3Clubs Nairobi. Bring a **working** MVP, functional beta, live app or safely demonstrable device—not a pitch alone. Founder cohort admission requires organizer approval and a reviewed outgoing product test first, unless an organizer grants an explicit exception. A referral or RSVP does not reserve a testing seat. [Program overview](https://app.notion.com/p/420c1f4ba97e81528057d64c6a5115c0).
 
+## Practical session and launch resources
+
+- [Testing Tuesdays session kit](testing-tuesdays-session-kit.md)
+- [Founder launch-week checklist](founder-launch-week.md)
+- [Recovery and error-state patterns](error-states-library.md)
+- [Additional specialist guides](extended-topics.md)
+
 ## Your 60-minute quality audit
 
 1. **10 min:** Write your top three user tasks, success criteria, likely failures and target audience.

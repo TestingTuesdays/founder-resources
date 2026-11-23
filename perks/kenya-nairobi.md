@@ -41,3 +41,15 @@ This shortlist is **relevant to founders operating in Nairobi**, not proof that 
 - [ ] Record award amount, covered services, currency, expiration, renewal and post-credit recurring spend privately.
 
 No separate Testing Tuesdays member-exclusive discount has been confirmed. See the [main perks directory](README.md) for additional opportunities.
+
+
+## Time-sensitive Kenyan accelerator opportunity
+
+- [Hazina Accelerator 2026–27](https://hazinaaccelerator.com/) lists **November 1 through December 31, 2026** as its application period for eligible idea-stage entrepreneurs based in Kenya, with training and mentorship into 2027. This is program support, **not a guaranteed cloud credit or grant**. Verify full selection rules and current status on the official page.
+
+## Additional founder credit paths to evaluate
+
+- [Render for Startups](https://render.com/startups) has structured credit tiers, but even its $500 entry tier specifies seed funding; higher amounts require qualifying VC/accelerator affiliations. Country/entity acceptance needs confirmation.
+- [ElevenLabs startup grants](https://elevenlabs.io/startup-grants) may fit teams shipping long-term commercial voice AI products; check company-size, age-focused product exclusions and supported billing markets.
+- [OpenAI for Startups](https://openai.com/startups) offers a VC-partner credit route; ask a qualifying investor rather than claiming unconditional free API credits.
+- [Twilio Startups](https://www.twilio.com/en-us/solutions/startups) offers normal trial credit and education, not additional general startup credit. Validate sender rules and messaging markets.

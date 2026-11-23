@@ -79,4 +79,21 @@ These are *examples*, not universal requirements. Mark non-applicable features N
 | CONTENT-01 | Knowledge-base page renamed | Internal links updated |
 | CONTENT-02 | Blog claims credit amount without primary evidence | Claim withheld or labeled unverified |
 
+| MAIL-01 | Password reset mail is delayed or bounced | Safe status and support recovery |
+| MAIL-02 | Opted-out user receives marketing email | Preferences respected; no unlawful sends |
+| SEARCH-01 | Typos, filters and zero-results | Useful results and recovery |
+| SEARCH-02 | Deleted private document remains indexed | No exposed content |
+| RES-01 | Provider returns 429 or timeout | Bounded retries and clear user response |
+| RES-02 | Background queue replays same job | One logical outcome |
+| SUPPLY-01 | A dependency contains known advisory | Reviewed remediation decision |
+| SUPPLY-02 | Third-party CI code uses unpinned dependency | Risk understood or pinned |
+| COPY-01 | User misinterprets important CTA | Plain-language revision verified |
+| PRICE-01 | Annual/monthly billing toggle | Correct and consistent invoice |
+| PRICE-02 | Expired trial or coupon | Accurate entitlement and total |
+| SDK-01 | User declines analytics consent | Tracking follows actual disclosure |
+| SDK-02 | SDK update changes data transmission | Privacy inventory updated |
+| REGPAY-01 | Payment redirect abandoned | No false access/charge promise |
+| REGPAY-02 | Local payment fails and retries | Safe single outcome |
+| REGPAY-03 | Currency and tax rounding | Exact invoice consistency |
+
 Use [the bug report](../templates/bug-report.md) to report failures and [the retest template](../templates/retest.md) to verify fixes. Never target systems without permission.

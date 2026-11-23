@@ -78,3 +78,19 @@ _Last curated: 2026-11-23. These programs are external; Testing Tuesdays has not
 ## Time-sensitive provider policy note
 
 **Current Cloudflare eligibility caveat:** The provider advertises a $10k self-funded tier, but its general qualification list also refers to funding in the prior 12 months. These statements may not fit every bootstrapped company; ask the provider to confirm your eligibility before relying on credits. Its page also announces changes to Workers AI credit coverage effective December 1, 2026; verify eligible products and exclusions before spending.
+
+
+## New verified provider programs — November 2026
+
+| Program | Verified offer or opportunity | Access limitations |
+| --- | --- | --- |
+| [Render for Startups](https://render.com/startups) | $500 entry tier; $2.5k–$5k partner tiers; larger VC-backed tiers up to $100k | New account, funding/stage, enrolled partner and 1-year expiry; check exact tier |
+| [ElevenLabs Startup Grants](https://elevenlabs.io/startup-grants) | 12 months Scale and up to 33 million characters, subject to approval | Rolling, valid business email, monetization plan, fewer than 25 staff; exclusions apply |
+| [OpenAI for Startups](https://openai.com/startups) | VC-partner route to API credits, support and rate-tier upgrades; no universal amount | Eligible investor partner and referral; not generally open credits |
+| [Twilio Startups](https://www.twilio.com/en-us/solutions/startups) | Standard new-account trial and educational resources | Provider says no additional general startup credits at present |
+| [Twilio AI Startup Searchlight 2026](https://www.twilio.com/en-us/lp/twilio-ai-startup-searchlight) | Competition offered credits/prizes for selected honorees | **Closed for 2026**; do not apply as though currently open |
+| [Hazina Accelerator](https://hazinaaccelerator.com/) | Kenya-focused idea-stage training, mentoring and linkages | Advertises November 1–December 31, 2026 application window; no guaranteed cash grant |
+
+For partner-restricted third-party offers, see [partner offer marketplace guidance](partner-offers.md). For Kenyan founders, check [regional opportunities](kenya-nairobi.md) and [perks eligibility decision guide](eligibility-decision-tree.md).
+
+**Research method:** provider-owned program pages checked on November 23, 2026. Status is not evidence an individual application was accepted. Recheck live terms, country support and deadline before spending.
