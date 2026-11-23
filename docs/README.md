@@ -2,6 +2,12 @@
 
 [← Repository home](../README.md) · [Skills](../skills/README.md) · [Templates](../templates/README.md)
 
+## Market profitability and international operations
+
+- [Profitable market selection](../markets/README.md)
+- [Country opportunity research](../markets/country-opportunities.md)
+- [International business operating models](../markets/market-entry-operations.md)
+
 ## Distribution research quality
 
 - [Evidence qualification for country/industry claims](distribution-source-qualification.md)

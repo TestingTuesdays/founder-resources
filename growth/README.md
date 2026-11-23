@@ -39,3 +39,9 @@ Record claims and source dates before publication, especially advertising polici
 
 - [Operational workflows and skills](../distribution/operations/README.md)
 - [Worked campaign examples](../distribution/campaigns/README.md)
+
+## Market economics and business setup
+
+- [Profitability framework](../markets/profitability-framework.md)
+- [Sector unit economics](../markets/sector-economics.md)
+- [International market-entry operations](../markets/market-entry-operations.md)

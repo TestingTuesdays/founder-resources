@@ -4,6 +4,13 @@
 
 A **free public knowledge base** for founders testing and shipping SaaS, consumer web and mobile products, AI applications, marketplaces and connected hardware. Includes practical workflows, common errors, sample test cases, a large tool index, reusable skills and release templates.
 
+## Market profitability and international business entry
+
+- [Market profitability framework](markets/README.md) — compare contribution margin, CAC, retention, legal feasibility and cash cycles rather than GDP alone.
+- [Country opportunity hypotheses](markets/country-opportunities.md) — sector-specific research opportunities without unsupported country rankings.
+- [How to operate a business in another country](markets/market-entry-operations.md) — cross-border sales, distributors, subsidiaries, branches, hiring and tax questions.
+- [Market comparison worksheet](templates/market-profitability-scorecard.md) and [research dataset](data/market-profitability-hypotheses.csv).
+
 ## Distribution execution and worked examples
 
 - [Distribution operations](distribution/operations/README.md) — market validation, localization, partners, creators, attribution and marketing compliance.

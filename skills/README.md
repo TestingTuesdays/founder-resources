@@ -181,3 +181,8 @@ Copy [session and release templates](../templates/README.md) into **private** te
 - [Creator distribution](creator-distribution/SKILL.md)
 - [Cross-channel attribution](distribution-measurement/SKILL.md)
 - [Country/sector marketing compliance](country-sector-compliance/SKILL.md)
+
+## Market profitability and business setup skills
+
+- [Evaluate profitable markets](market-profitability-evaluation/SKILL.md)
+- [Enter and operate in another country](international-business-entry/SKILL.md)

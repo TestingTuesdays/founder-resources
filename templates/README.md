@@ -7,6 +7,10 @@
 - [SEO/AEO/metadata and UI audit](design-growth-audit.md) — evidence, priority, owner and retest.
 - [UI reference review](ui-reference-review.md) — original design inspiration without copying.
 
+## Market profitability and business setup
+
+- [Country profitability scorecard](market-profitability-scorecard.md) — revenue, contribution margin, CAC, retention, fixed costs and risk.
+
 ## Market-entry and content production
 
 - [Country launch readiness](country-launch-checklist.md) — local research, provider eligibility and campaign guardrails.

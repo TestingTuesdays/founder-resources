@@ -25,3 +25,9 @@ For a Kenyan health app, read Kenya → Healthtech → Search/short video/partne
 - [Structured experiment examples](../data/distribution-experiments.csv)
 - [Country launch checklist](../templates/country-launch-checklist.md)
 - [Multi-market content brief](../templates/multimarket-content-brief.md)
+
+## Choose markets based on profitability
+
+- [Market selection and profitability framework](../markets/README.md)
+- [Country opportunity archetypes](../markets/country-opportunities.md)
+- [Market-entry operating models](../markets/market-entry-operations.md)

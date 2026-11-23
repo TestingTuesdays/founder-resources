@@ -23,3 +23,7 @@ All examples use fictitious identities and no production credentials. CSV files 
 ## Distribution experiment records
 
 - [Example experiments](distribution-experiments.csv) — all explicitly marked not attempted; never present as observed performance.
+
+## Market profitability research
+
+- [Country and sector opportunity hypotheses](market-profitability-hypotheses.csv) — no unsupported profitability ranking.
