@@ -152,3 +152,18 @@ Skills are reusable **human or AI-assisted procedures** with defined inputs, tes
 | [Product event instrumentation](product-event-instrumentation/SKILL.md) | Evidence-backed implementation and retest |
 
 Copy [session and release templates](../templates/README.md) into **private** team records. Review personal-data safety before recording tests.
+
+## Go-to-market, social, finance and investor qualification skills
+
+- [Go-to-market launch](go-to-market-launch/SKILL.md)
+- [X brand account](x-brand-operations/SKILL.md)
+- [TikTok scripts](tiktok-script-production/SKILL.md)
+- [UGC briefs](ugc-creator-briefs/SKILL.md)
+- [Social formats and cadence](social-formats-platforms/SKILL.md)
+- [Paid acquisition](paid-acquisition/SKILL.md)
+- [Retention and network effects](retention-virality-network-effects/SKILL.md)
+- [Startup School curriculum](startup-learning/SKILL.md)
+- [Fundraising readiness](fundraising-readiness/SKILL.md)
+- [US–Kenya cross-border](us-kenya-crossborder/SKILL.md)
+- [Kenya company tax and filing](kenya-incorporation-tax/SKILL.md)
+- [Investor qualification](investor-qualification/SKILL.md)

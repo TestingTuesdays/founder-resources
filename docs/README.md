@@ -2,6 +2,13 @@
 
 [← Repository home](../README.md) · [Skills](../skills/README.md) · [Templates](../templates/README.md)
 
+## Growth, investor data and Kenya company operations
+
+- [Go-to-market and startup education](../growth/README.md)
+- [Kenya investor directory](../investors/README.md)
+- [Investor data expansion plan](investor-data-expansion-plan.md)
+- [Kenya company filing](../kenya/company-filing.md)
+
 ## Stack frameworks and feedback research
 
 - [Testing frameworks by stack](../stacks/README.md)

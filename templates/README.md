@@ -7,6 +7,11 @@
 - [SEO/AEO/metadata and UI audit](design-growth-audit.md) — evidence, priority, owner and retest.
 - [UI reference review](ui-reference-review.md) — original design inspiration without copying.
 
+## Marketing and fundraising
+
+- [Marketing experiment and conversion tracker](marketing-experiment.md)
+- [Investor qualification and diligence](fundraising-diligence.md)
+
 ## User testing and feedback operations
 
 - [Research plan](research-plan.md) — task, participants, consent and success criteria.

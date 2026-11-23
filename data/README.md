@@ -9,3 +9,9 @@ Use these **synthetic example catalogs** to seed test plans. They are not actual
 - [Source freshness policy](../docs/editorial-source-freshness.md) — how to update claims safely.
 
 All examples use fictitious identities and no production credentials. CSV files are UTF-8 and intended for import into spreadsheets, issue trackers or a private QA workspace.
+
+## Growth and learning datasets
+
+- [Social platform formats and sample cadence](social-platform-formats.csv)
+- [Founder learning resources](startup-learning.csv)
+- [Kenya investor catalog](../investors/catalog.csv)

@@ -4,6 +4,14 @@
 
 A **free public knowledge base** for founders testing and shipping SaaS, consumer web and mobile products, AI applications, marketplaces and connected hardware. Includes practical workflows, common errors, sample test cases, a large tool index, reusable skills and release templates.
 
+## Go-to-market, fundraising and startup education
+
+- [GTM, launch and social media operations](growth/README.md) — X/Twitter, TikTok, UGC, paid acquisition, conversion, retention and network effects.
+- [Marketing platform formats and sample cadence](data/social-platform-formats.csv) — experiment hypotheses, not algorithm guarantees.
+- [Startup learning library](data/startup-learning.csv) — YC Startup School, a16z, Stanford, Sequoia, First Round and more.
+- [Kenya investor and VC directory](investors/README.md) — source status, sectors, stage and investor qualification.
+- [US–Kenya fundraising structure](growth/fundraising-us-kenya-structure.md) and [Kenya company filing](kenya/company-filing.md) — professional-review checklists.
+
 ## Structured QA datasets and maintenance
 
 - [App-type test scenarios](data/app-type-scenarios.csv) — importable synthetic examples covering 25 product categories.

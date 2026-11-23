@@ -49,3 +49,9 @@ A founder-friendly, **Kenya-specific** guide to payments, privacy, compliance di
 ## Provider selection data
 
 Use the [Kenya provider evaluation questions](../data/kenya-provider-questions.csv) to compare merchant onboarding, supported payment rails, settlement, fees, privacy and regulatory questions. Populate answers from current written provider sources, not guesses.
+
+## Incorporation and cross-border fundraising
+
+- [Kenyan company filing and ongoing obligations](company-filing.md)
+- [US-incorporated company operating in Kenya](../growth/fundraising-us-kenya-structure.md)
+- [Kenya investor directory](../investors/README.md)
