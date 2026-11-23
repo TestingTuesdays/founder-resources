@@ -141,4 +141,14 @@ Skills are reusable **human or AI-assisted procedures** with defined inputs, tes
 | Water and energy utilities | [Scenario-driven test skill](app-energy-water-iot-deep-dive/SKILL.md) |
 | Events and ticketing | [Scenario-driven test skill](app-ticketing-events-deep-dive/SKILL.md) |
 
+## Stack testing and user feedback integration skills
+
+| Skill | Goal |
+| --- | --- |
+| [Stack-specific testing strategy](stack-test-strategy/SKILL.md) | Evidence-backed implementation and retest |
+| [Moderated research session](moderated-research-session/SKILL.md) | Evidence-backed implementation and retest |
+| [Feedback collection integration](feedback-collection-integration/SKILL.md) | Evidence-backed implementation and retest |
+| [Feedback tool selection](feedback-tool-selection/SKILL.md) | Evidence-backed implementation and retest |
+| [Product event instrumentation](product-event-instrumentation/SKILL.md) | Evidence-backed implementation and retest |
+
 Copy [session and release templates](../templates/README.md) into **private** team records. Review personal-data safety before recording tests.

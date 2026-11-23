@@ -180,3 +180,9 @@ Check country-specific integration eligibility, data handling, cost and producti
 ## Specialist QA tools by product problem
 
 - [Specialist testing toolbox](specialist-toolbox.md) — device labs, accessibility, API testing, observability, AI evaluations, search and Kenya integrations.
+
+## Research and feedback integration tools
+
+- [User testing, surveys and feedback platforms](../research/feedback-tools.md) — forms, moderated studies, in-app surveys, feedback boards, analytics and issue trackers.
+- [Feedback integration architecture](../research/feedback-integration.md) — privacy-safe intake to issue to retest.
+- [Testing frameworks by tech stack](../stacks/README.md) — choose appropriate unit, integration and E2E tools.

@@ -1,34 +1,43 @@
-# Expo and React Native mobile QA starter
+# Expo / React Native — testing framework recipe
 
-[← Stack recipes](README.md) · [QA guide](../docs/qa-automation.md) · [Release gate](../docs/release-readiness.md)
+[← Stack index](README.md) · [User research](../research/README.md) · [Evidence standard](../docs/quality-evidence-standard.md)
 
-## When to use
+## Recommended framework layers
 
-Use when the app is built in React Native / Expo.
+Jest + React Native Testing Library; Maestro or Detox; EAS device builds.
 
-## Founder checklist
+## What to test at each layer
 
-- [ ] Define three actual user journeys and success criteria.
-- [ ] Run clean signup, returning login, failure/recovery and logout.
-- [ ] Test narrow mobile/older device, low bandwidth, keyboard and assistive technologies.
-- [ ] Check authorization and data access at the backend, not merely in the UI.
-- [ ] Test actual money and notification paths in provider sandboxes.
-- [ ] Confirm logs, monitoring, backup/restore, rollback and support ownership.
-- [ ] Repeat task after each fix; keep evidence tied to build and environment.
+Unit: hooks and domain logic; component: navigation/forms; device E2E: permissions, push, deep links and payment app switching.
 
-## Stack-specific considerations
+## Suggested smoke-test matrix
 
-Verify native permissions, EAS build profiles, deep links, notifications, background/resume, major iOS and Android versions, store metadata and crash visibility. Do not assume emulator equals physical device.
+| Scenario | Layer | Expected outcome | Evidence |
+| --- | --- | --- | --- |
+| Core user task | E2E on representative device | Unassisted completion | Not run |
+| Validation and empty states | Unit/component | Clear, accessible recovery | Not run |
+| Unauthorized cross-account access | Integration/API | Server denies | Not run |
+| Provider timeout or duplicate event | Integration | Safe retry and one logical outcome | Not run |
+| Slow mobile network | E2E/device | Preserved state and truthful status | Not run |
+| Fix regression | Same layer as original defect | Previous failure no longer reproducible | Not run |
 
-## Tools and developer references
+## Setup and release workflow
 
-- [Expo EAS Build](https://docs.expo.dev/build/introduction/)
-- [Expo EAS Submit](https://docs.expo.dev/submit/introduction/)
+1. Choose one unit runner, one integration approach and one end-to-end runner rather than adding every tool.
+2. Create deterministic synthetic fixtures and isolated test services.
+3. Automate the critical paths locally; retain manual moderated user testing for comprehension and accessibility.
+4. Capture build SHA, command, environment, expected/actual result and redacted evidence.
+5. Fix, retest and release only after the risk owner approves. GitHub Actions remain intentionally disabled in this resource repository.
+
+## Stack-specific caution
+
+Validate native behavior on Android and iOS release-like builds, not just a browser preview.
+
+## Official references
+
+- [Expo testing](https://docs.expo.dev/develop/unit-testing/)
+- [React Native Testing Library](https://callstack.github.io/react-native-testing-library/)
 - [Maestro](https://maestro.mobile.dev/)
-- [React Native accessibility](https://reactnative.dev/docs/accessibility)
+- [Detox](https://wix.github.io/Detox/)
 
-## Do not skip
-
-Use fictional test accounts, avoid public secrets and confirm up-to-date vendor and store policy. Do not claim complete security, accessibility or test coverage solely from this starter checklist.
-
-**Output:** test matrix, priority issues, release decision and comparable retest evidence.
+These are selection starting points; tool compatibility and supported versions must be checked against the project's installed stack.

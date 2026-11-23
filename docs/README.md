@@ -2,6 +2,12 @@
 
 [← Repository home](../README.md) · [Skills](../skills/README.md) · [Templates](../templates/README.md)
 
+## Stack frameworks and feedback research
+
+- [Testing frameworks by stack](../stacks/README.md)
+- [User testing and feedback collection](../research/README.md)
+- [Feedback integration into issue tracking](../research/feedback-integration.md)
+
 ## By market and product type
 
 - [Kenya founder guides](../kenya/README.md)

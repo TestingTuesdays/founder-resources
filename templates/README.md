@@ -7,6 +7,12 @@
 - [SEO/AEO/metadata and UI audit](design-growth-audit.md) — evidence, priority, owner and retest.
 - [UI reference review](ui-reference-review.md) — original design inspiration without copying.
 
+## User testing and feedback operations
+
+- [Research plan](research-plan.md) — task, participants, consent and success criteria.
+- [Feedback intake data schema](feedback-intake-schema.md) — minimum fields, consent, retention and status.
+- [Feedback triage and retest](feedback-triage.md) — issue ownership and release verification.
+
 ## Testing Tuesdays session and release planning
 
 - [Issue triage board](issue-triage-board.md) — tasks, severity, owner, ship and retest.

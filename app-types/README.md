@@ -49,3 +49,7 @@ Each playbook includes scenarios, common mistakes, Kenya-specific considerations
 ## Importable test scenarios
 
 [Starter scenarios by app type](../data/app-type-scenarios.csv) are available as CSV for use in a private QA tracker. They are proposed scenarios, not completed tests.
+
+## Select the implementation stack and feedback workflow
+
+Use the [testing frameworks by stack](../stacks/README.md) alongside the app-specific risk playbook, then [collect user feedback and triage it](../research/README.md) into issues with comparable retests. A stack test passing does not replace observing a target user complete the task.

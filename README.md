@@ -10,6 +10,13 @@ A **free public knowledge base** for founders testing and shipping SaaS, consume
 - [Kenya payment-provider evaluation questions](data/kenya-provider-questions.csv) — evidence fields for provider selection.
 - [Editorial source freshness policy](docs/editorial-source-freshness.md) — how to update perks and regulatory references without unsupported claims.
 
+## Testing frameworks and user feedback workflows
+
+- [Testing frameworks by stack](stacks/README.md) — React/Next.js, Vue, Svelte, Angular, Django, FastAPI, NestJS, Laravel, Rails, Supabase, Firebase, Flutter, React Native, WordPress, Shopify and IoT.
+- [User testing and feedback research](research/README.md) — recruiting, moderated sessions, surveys, consent, analytics, triage and comparable retesting.
+- [Feedback collection integration](research/feedback-integration.md) — in-app widgets, private intake, issue trackers and release loop.
+- [Feedback tool directory](research/feedback-tools.md) — survey, replay, testing, feature requests and analytics.
+
 ## App-specific testing and specialist tools
 
 - [Detailed app-type testing playbooks](app-types/README.md) now include scenario-driven fintech, healthtech, edtech, agritech, utility and ticketing tests.
