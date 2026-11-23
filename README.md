@@ -15,6 +15,14 @@ A **free public knowledge base** for founders testing and shipping SaaS, consume
 7. [Tool evaluation checklist](tools/tool-evaluation-checklist.md)
 8. [Reusable skills](skills/README.md)
 9. [Copyable templates](templates/README.md)
+10. **[Startup credits and founder perks](perks/README.md)** — Kenya/Nairobi and global offers, official sources, eligibility and application guide
+
+## Founder perks and contribution routes
+
+- **[Browse startup credits and discounts](perks/README.md)** — 36 reviewed programs or leads, clearly labeled by evidence level.
+- **[Kenya and Nairobi shortlist](perks/kenya-nairobi.md)** — country and accelerator considerations.
+- **[Perk application playbook](perks/application-playbook.md)** — eligibility, real savings, expiration and billing safeguards.
+- **[Suggest a new resource, perk or skill](CONTRIBUTING.md)** — guided GitHub issue forms and pull-request review checklist.
 
 ## Browse by topic
 
@@ -66,7 +74,7 @@ Testing Tuesdays is a contribution-first Nairobi product-testing community devel
 
 ## Contribute and keep this current
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Report outdated documentation, broken links, useful tests, skills and regional release considerations. The CI workflow validates **relative Markdown links**; external services, pricing, legal rules and app-store requirements must be rechecked manually against authoritative sources.
+See [CONTRIBUTING.md](CONTRIBUTING.md) and the [issue templates](.github/ISSUE_TEMPLATE/config.yml). Report outdated documentation, broken links, useful tests, skills and regional release considerations. The CI workflow validates **relative Markdown links**; external services, pricing, legal rules and app-store requirements must be rechecked manually against authoritative sources.
 
 **Privacy and safety:** no real customer data, API keys, participant recordings or private founder reports in public GitHub issues. Security testing is for authorized systems only. This library is guidance, not a security, accessibility, regulatory or store-approval certification.
 

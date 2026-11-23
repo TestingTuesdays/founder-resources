@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Browse the founder resource handbook
+    url: https://github.com/TestingTuesdays/founder-resources
+    about: Check existing guides before proposing a duplicate.
+  - name: Startup perks directory
+    url: https://github.com/TestingTuesdays/founder-resources/tree/main/perks
+    about: Check listed programs and eligibility before submitting an offer.

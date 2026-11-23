@@ -1,0 +1,71 @@
+name: "Startup perk submission"
+description: "Submit or correct an official credit, discount or startup program."
+title: "startup-perk-submission: "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: provider
+    attributes:
+      label: "Provider and program name"
+      description: "Exact advertised program, not a generic provider name."
+    validations:
+      required: true
+  - type: textarea
+    id: url
+    attributes:
+      label: "Official application or terms URL"
+      description: "Use the provider's own source page."
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Perk type"
+      description: "Choose the most relevant category."
+      options:
+        - "Cloud / hosting"
+        - "AI / GPU / API"
+        - "Database / developer tools"
+        - "Testing / QA / observability"
+        - "Design / productivity"
+        - "CRM / marketing / support"
+        - "Payments / finance / legal"
+        - "Kenya / Africa accelerator"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: "Offer value and duration"
+      description: "Exact current benefit, currency, expiry and services covered; say unknown where not stated."
+    validations:
+      required: true
+  - type: textarea
+    id: eligibility
+    attributes:
+      label: "Eligibility and Kenya availability"
+      description: "Country, company age, funding stage, product type, partner referral, exclusions."
+    validations:
+      required: true
+  - type: textarea
+    id: application
+    attributes:
+      label: "How to apply"
+      description: "Direct form, referral or accelerator cohort; include any deadlines."
+    validations:
+      required: true
+  - type: textarea
+    id: checked
+    attributes:
+      label: "Verified on and evidence"
+      description: "Date you read the official provider terms. Note uncertain clauses explicitly."
+    validations:
+      required: true
+  - type: textarea
+    id: conflict
+    attributes:
+      label: "Affiliation and caveats"
+      description: "Any employment/referral relationship, equity, fees, automatic billing, stacking limits."
+    validations:
+      required: false

@@ -1,33 +1,48 @@
-# Contributing to the Testing Tuesdays founder resource library
+# Contributing to Testing Tuesdays Founder Resources
 
-Everyone can propose improvements to public, reusable product-quality learning materials. We welcome founders, researchers, designers, QA engineers, accessibility experts, product managers, mobile developers, localization contributors and security reviewers.
+[← Home](README.md) · [Startup perks](perks/README.md) · [Skills](skills/README.md) · [Templates](templates/README.md)
 
-## Submission types
+We welcome founders, engineers, UX researchers, QA specialists, translators, accessibility practitioners and Kenyan/African ecosystem partners. The aim is **accurate, actionable, maintainable founder knowledge**, not advertising.
 
-- Fix a broken/outdated official link or policy statement.
-- Contribute a tool **with a clear use case and official reference**, not an advertisement.
-- Add a repeatable test case with safe sample inputs and expected outcome.
-- Improve a workflow skill, accessible documentation or a template.
-- Add region-specific considerations with authoritative supporting sources.
+## How to contribute
 
-## Editorial rules
+| I want to… | Open this |
+| --- | --- |
+| Suggest a useful tool or official resource | [Resource form](.github/ISSUE_TEMPLATE/resource_submission.yml) |
+| Submit or correct a startup credit or perk | [Perk form](.github/ISSUE_TEMPLATE/perk_submission.yml) |
+| Add a repeatable testing skill | [Skill proposal](.github/ISSUE_TEMPLATE/skill_submission.yml) |
+| Correct a broken link or outdated claim | [Correction form](.github/ISSUE_TEMPLATE/correction.yml) |
+| Make a prepared edit | [Open a pull request](https://github.com/TestingTuesdays/founder-resources/pulls) |
 
-1. Use clear founder-friendly language; explain jargon once.
-2. Lead with **why, when, steps, expected result and next action**, not vendor logos.
-3. Link primarily to official documentation and established standards; timestamp policy-sensitive guidance.
-4. No paid placement, unverified superlatives, fabricated reviews or made-up “free” tiers.
-5. No private founder intake, API keys, contact lists, participant identities or raw recordings.
-6. Mark scope and limits: tools do not certify compliance; sample counts do not guarantee statistical evidence.
-7. Preserve navigation and relative links; check spelling and accessibility of tables/headings.
-8. For a new skill, follow the existing `skills/<slug>/SKILL.md` layout and provide repeatable evidence-based acceptance criteria.
+**Copyable contribution formats:** [Resource submission](templates/resource-submission.md), [Perk research](templates/perk-research.md), [Skill proposal](templates/skill-submission.md), [Private perk tracker](templates/perk-tracker.md).
 
-## Pull request checklist
+## Resource editorial standard
 
-- [ ] The change solves a concrete founder problem and is actionable.
-- [ ] Any claims about requirements or tools have a primary-source link.
-- [ ] No sensitive information or unsafe instructions.
-- [ ] Markdown links and local paths are valid.
-- [ ] Relevant hub/topic/skills index updated.
-- [ ] A reviewer can follow the steps and know what “done” means.
+Explain the founder problem, target user, prerequisites, practical steps, expected result and failure recovery. Cite the vendor/standards body's own documentation. Describe observed testing versus documentation-only research truthfully. Identify hidden costs and exclusions; include free/community alternatives where useful. Write for someone who may never have used the tool.
 
-Submit issues for mistakes and proposals; PRs should include a short why, changed files, examples and verification performed. Content here is public educational guidance, not a replacement for expert advice in regulated/high-risk areas.
+## Perk editorial standard
+
+Each entry needs provider, official URL, offer type, advertised maximum **versus typical/conditional award**, eligibility by region and incorporation, company age, funding, partner affiliation, previous credit limitations, services covered, expiry, application deadline, payment/renewal and review date.
+
+Use one of four labels: **Official terms reviewed**, **Program discovery — recheck**, **Lead — offer not verified**, or **Official program discovery**. A tool's normal free tier is not automatically a startup-specific credit. A Nairobi accelerator is not a free unlimited cloud coupon. Member-exclusive Testing Tuesdays perks must be explicitly verified before claiming partnership.
+
+## Pull request quality gates
+
+1. Edit the relevant topic guide and navigation links; for perks update both `perks/catalog.csv` and the readable directory.
+2. Keep relative links valid. Run `python3 scripts/check_links.py` from the repo root.
+3. Document official sources and the date last reviewed. Never paste large copied source passages.
+4. Include an honest practical example, and note what has *not* been verified.
+5. Declare affiliate/referral/sponsorship relationships; no paid rankings or undisclosed affiliate links.
+6. Never commit passwords, private cohort reports, application details, participant identities or real screenshots containing personal data.
+7. Review changes for mobile reading, keyboard accessibility, clear headings, missing links and jargon.
+8. Avoid legally ungrounded claims, false compliance certifications or guaranteed credit awards.
+
+## Maintainer review workflow
+
+**Intake → deduplicate → source verify → eligibility/country review → safety/privacy review → edit navigation/data → local-link CI → reviewer approval → merge → schedule recheck.**
+
+Prioritize inaccuracies that could cause billing surprises, dangerous testing, blocked app submission or misleading startup funding expectations. For rapidly changing perks, aim to recheck at least quarterly or sooner after a policy change. Mark an unverified lead honestly instead of removing a useful discovery trail.
+
+## Versioning and maintenance
+
+Keep factual change notes in PRs. Use issue forms for external changes and broken links. Community submissions do not imply endorsement or give contributors access to private participant information. Do not create a sponsor-benefit promise until accepted in writing by both parties.

@@ -1,0 +1,54 @@
+name: "Testing skill proposal"
+description: "Propose a repeatable founder testing or release skill."
+title: "testing-skill-proposal: "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: title
+    attributes:
+      label: "Skill name and audience"
+      description: "Name it for an action the founder can carry out."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Goal and reason"
+      description: "What recurring problem does it solve?"
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: "Inputs and permissions"
+      description: "Safe environments, credentials, consents and starting conditions."
+    validations:
+      required: true
+  - type: textarea
+    id: procedure
+    attributes:
+      label: "Repeatable step-by-step procedure"
+      description: "Actionable ordered steps, not an inspirational checklist."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Pass/fail criteria and deliverable"
+      description: "What proof demonstrates the skill was completed?"
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: "Relevant primary references"
+      description: "Official standards, docs or test results."
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: "Risks and limits"
+      description: "Privacy, security, accessibility or regulatory caution."
+    validations:
+      required: true

@@ -1,0 +1,40 @@
+name: "Correction or broken link"
+description: "Flag inaccurate, broken or outdated guidance."
+title: "correction-or-broken-link: "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: file
+    attributes:
+      label: "Existing file and section"
+      description: "Link to the exact GitHub file and heading."
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: "What is incorrect"
+      description: "Quote briefly, and explain why it is wrong."
+    validations:
+      required: true
+  - type: textarea
+    id: replacement
+    attributes:
+      label: "Proposed accurate replacement"
+      description: "Provide corrected facts or wording."
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: "Primary supporting source"
+      description: "Official source, and exact reviewed date."
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: "Impact on founders"
+      description: "Could this cause overspending, blocked applications, bad QA or safety issues?"
+    validations:
+      required: true

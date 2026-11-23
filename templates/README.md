@@ -1,6 +1,8 @@
 # Reusable founder templates
 
-[← Home](../README.md)
+[← Home](../README.md) · [Contribute](../CONTRIBUTING.md) · [Startup perks](../perks/README.md)
+
+## Product testing and releasing
 
 - [Bug report](bug-report.md) — reproducible issue with privacy-safe evidence
 - [Usability session](usability-session.md) — neutral tasks and observations
@@ -8,4 +10,11 @@
 - [Release checklist](release-checklist.md) — production go/no-go
 - [Retest & ship-back](retest.md) — verified improvement
 
-Copy templates into your own **private** issue tracker. Do not publish participant identities, production tokens or customer data here.
+## Contributing to the public library
+
+- [Resource submission](resource-submission.md) — what founders need to understand and verify
+- [Reusable skill authoring](skill-submission.md) — scope, steps, expected evidence and safety
+- [Perk verification record](perk-research.md) — primary-source offer and eligibility research
+- [Private perk application tracker](perk-tracker.md) — apply, usage, expiry and post-credit costs
+
+Copy templates into your own private workspace where they may contain identifying details. Do not publish participant identities, live credentials, contact lists or production data in this repository.

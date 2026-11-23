@@ -1,0 +1,58 @@
+name: "Resource submission"
+description: "Suggest a testing guide, tool or official reference."
+title: "resource-submission: "
+labels: ["documentation"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Resource category"
+      description: "Choose the closest fit."
+      options:
+        - "Usability / UX research"
+        - "QA / automation"
+        - "Accessibility"
+        - "Security / privacy"
+        - "Mobile / app stores"
+        - "Localization"
+        - "Performance / reliability"
+        - "Growth / analytics"
+        - "AI evaluation"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Founder problem this solves"
+      description: "What user task or release risk is addressed?"
+    validations:
+      required: true
+  - type: textarea
+    id: official_url
+    attributes:
+      label: "Primary or official source URL"
+      description: "Use a provider, standard or official project page, not only a blog post."
+    validations:
+      required: true
+  - type: textarea
+    id: instructions
+    attributes:
+      label: "How a founder should use it"
+      description: "Include prerequisites, numbered steps, output and limitations."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Verification and date"
+      description: "What did you check and when? Distinguish direct testing from documentation review."
+    validations:
+      required: true
+  - type: textarea
+    id: privacy
+    attributes:
+      label: "Data safety and conflicts"
+      description: "State any affiliation/sponsorship, privacy risks, costs or regional restrictions."
+    validations:
+      required: false
