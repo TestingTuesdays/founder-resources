@@ -130,4 +130,15 @@ Skills are reusable **human or AI-assisted procedures** with defined inputs, tes
 | [Inclusive recruiting](inclusive-recruitment/SKILL.md) | Repeatable audit and evidence |
 | [Marketplace dispute operations](marketplace-dispute-operations/SKILL.md) | Repeatable audit and evidence |
 
+## App-specific deep-dive skills
+
+| App category | Skill |
+| --- | --- |
+| Fintech and wallet | [Scenario-driven test skill](app-fintech-wallet-deep-dive/SKILL.md) |
+| Health and care | [Scenario-driven test skill](app-healthtech-deep-dive/SKILL.md) |
+| Education and learning | [Scenario-driven test skill](app-edtech-deep-dive/SKILL.md) |
+| Agriculture | [Scenario-driven test skill](app-agritech-deep-dive/SKILL.md) |
+| Water and energy utilities | [Scenario-driven test skill](app-energy-water-iot-deep-dive/SKILL.md) |
+| Events and ticketing | [Scenario-driven test skill](app-ticketing-events-deep-dive/SKILL.md) |
+
 Copy [session and release templates](../templates/README.md) into **private** team records. Review personal-data safety before recording tests.

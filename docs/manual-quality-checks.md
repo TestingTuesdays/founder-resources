@@ -49,3 +49,9 @@ python3 -m unittest discover -s scripts -p 'test_audit_static_html.py'
 ```
 
 These are local heuristics, not live crawling, indexing proof or a guarantee of search rankings. Keep GitHub Actions disabled.
+
+## Avoid stale counts in navigation
+
+Do not place hard-coded counts of skills, documents, tools or app types in headers and link labels. Prefer descriptive section names so navigation stays accurate when contributors add material. Procedural steps may remain numbered when order matters.
+
+Use the [quality evidence standard](quality-evidence-standard.md) to separate plans from executed results.

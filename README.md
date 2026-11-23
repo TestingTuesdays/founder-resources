@@ -6,9 +6,15 @@ A **free public knowledge base** for founders testing and shipping SaaS, consume
 
 ## Structured QA datasets and maintenance
 
-- [32 app-type test scenarios](data/app-type-scenarios.csv) — importable synthetic examples covering 25 product categories.
-- [15 Kenya payment-provider evaluation questions](data/kenya-provider-questions.csv) — evidence fields for provider selection.
+- [App-type test scenarios](data/app-type-scenarios.csv) — importable synthetic examples covering 25 product categories.
+- [Kenya payment-provider evaluation questions](data/kenya-provider-questions.csv) — evidence fields for provider selection.
 - [Editorial source freshness policy](docs/editorial-source-freshness.md) — how to update perks and regulatory references without unsupported claims.
+
+## App-specific testing and specialist tools
+
+- [Detailed app-type testing playbooks](app-types/README.md) now include scenario-driven fintech, healthtech, edtech, agritech, utility and ticketing tests.
+- [Specialist testing toolbox](tools/specialist-toolbox.md) covers mobile, API, security, accessibility, AI, SEO and Kenya payment integrations.
+- [Quality evidence standard](docs/quality-evidence-standard.md) clarifies observed, fixed, retested and unattempted states.
 
 ## Start in five minutes
 
@@ -25,34 +31,34 @@ A **free public knowledge base** for founders testing and shipping SaaS, consume
 
 ## Founder perks and contribution routes
 
-- **[Browse startup credits and discounts](perks/README.md)** — 43 cataloged programs or opportunities, with different verification levels, clearly labeled by evidence level.
+- **[Browse startup credits and discounts](perks/README.md)** — cataloged programs and opportunities, with different verification levels, clearly labeled by evidence level.
 - **[Kenya and Nairobi shortlist](perks/kenya-nairobi.md)** — country and accelerator considerations.
 - **[Perk application playbook](perks/application-playbook.md)** — eligibility, real savings, expiration and billing safeguards.
 - **[Suggest a new resource, perk or skill](CONTRIBUTING.md)** — guided GitHub issue forms and pull-request review checklist.
 
-## New practical SEO tooling
+## Practical SEO tooling
 
 - [Local HTML metadata auditor](tools/local-seo-audit.md) — run dependency-free checks without GitHub Actions, with Python unit tests.
 - [Design and growth skills](design-growth/README.md) now cover content architecture, schema, mobile heuristics, critique, Kenya local SEO, performance budgets and truthful trust signals.
 
 ## SEO, AI discovery and interface design
 
-- **[15 SEO, AEO/GEO and UI/UX audit guides](design-growth/README.md)** — technical SEO, AI search visibility, metadata, visual hierarchy, landing pages, design systems, navigation and benchmarking.
-- **[24 UI inspiration websites](inspiration/README.md)** — Mobbin, Page Flows, Refero, Land-book, Awwwards, Component Gallery and more.
+- **[SEO, AEO/GEO and UI/UX audit guides](design-growth/README.md)** — technical SEO, AI search visibility, metadata, visual hierarchy, landing pages, design systems, navigation and benchmarking.
+- **[UI inspiration websites](inspiration/README.md)** — Mobbin, Page Flows, Refero, Land-book, Awwwards, Component Gallery and more.
 - **[Copyable audit and inspiration templates](templates/README.md)** — structured before/after evidence and user retesting.
 
-## New Kenya integration and provider QA
+## Kenya integration and provider QA
 
-- [Seven Kenya implementation recipes](kenya/integrations/README.md) — M-Pesa STK, C2B/B2C, PSP selection, ODPC data inventory, eTIMS, field testing and county permits.
-- [25 app-category playbooks](app-types/README.md) — now includes B2B SaaS, AI agents, telemedicine, insurtech, HR, faith communities, climate, ticketing, property finance and gaming.
+- [Kenya implementation recipes](kenya/integrations/README.md) — M-Pesa STK, C2B/B2C, PSP selection, ODPC data inventory, eTIMS, field testing and county permits.
+- [App-category playbooks](app-types/README.md) — now includes B2B SaaS, AI agents, telemedicine, insurtech, HR, faith communities, climate, ticketing, property finance and gaming.
 
 ## Build for Kenya and your app category
 
 - **[Kenya-specific payments, compliance and localization](kenya/README.md)** — M-Pesa/Daraja, ODPC, KRA, fintech, consumer, SMS/USSD, health and sector regulation discovery.
-- **[25 app-type testing playbooks](app-types/README.md)** — fintech, e-commerce, health, education, agritech, logistics, proptech, food, travel, marketplace, civic, utilities, media, nonprofit and community apps.
+- **[App-type testing playbooks](app-types/README.md)** — fintech, e-commerce, health, education, agritech, logistics, proptech, food, travel, marketplace, civic, utilities, media, nonprofit and community apps.
 - **[Kenya-specific reusable skills](skills/README.md)** — actionable tests, evidence and regulator/provider source checks.
 
-## Recently expanded quality topics
+## Quality engineering topics
 
 - [Synthetic test data and fixtures](docs/test-data-management.md)
 - [Browser and OS compatibility](docs/browser-compatibility.md)
@@ -109,7 +115,7 @@ A **free public knowledge base** for founders testing and shipping SaaS, consume
 The library now includes practical skills covering deliverability, relevance, provider failures, software dependencies, pricing, mobile tracking and region-specific checkout; see the [skills index](skills/README.md).
 
 
-[**Tool directory**](tools/README.md) and [low-cost/local testing stack](tools/free-and-local.md) cover research, QA, accessibility, security, mobile, localization, payments, product analytics and AI. [**Skill library**](skills/README.md) provides 86 repeatable procedures with inputs, steps and evidence. [**Templates**](templates/README.md) help you track tasks, defects and retests.
+[**Tool directory**](tools/README.md) and [low-cost/local testing stack](tools/free-and-local.md) cover research, QA, accessibility, security, mobile, localization, payments, product analytics and AI. [**Skill library**](skills/README.md) provides repeatable procedures with inputs, steps and evidence. [**Templates**](templates/README.md) help you track tasks, defects and retests.
 
 ### Minimum quality loop
 

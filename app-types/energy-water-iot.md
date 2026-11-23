@@ -1,44 +1,49 @@
-# Energy, water utility and IoT apps — founder testing playbook
+# Water and energy utilities — practical founder testing playbook
 
-[← App-type index](README.md) · [Kenya launch guide](../kenya/README.md) · [Test template](../templates/test-case.md)
+[← All app types](README.md) · [Kenya hub](../kenya/README.md) · [Reusable skill](../skills/app-energy-water-iot-deep-dive/SKILL.md)
 
-## Product-quality goal
+## Outcome to protect
 
-Meter integrity, tamper evidence, billing, field connectivity and physical safety.
+**Meter state, field safety, billing and data provenance.** Sensor readings are not inherently trustworthy and delayed uploads can double-charge customers.
 
-## Minimum test matrix
+## Critical user journeys
 
-1. **Offline meter reading.** Set up a synthetic scenario, record expected versus actual outcome, severity, owner and retest.
-2. **duplicate charge.** Set up a synthetic scenario, record expected versus actual outcome, severity, owner and retest.
-3. **tamper alert.** Set up a synthetic scenario, record expected versus actual outcome, severity, owner and retest.
-4. **stale readings.** Set up a synthetic scenario, record expected versus actual outcome, severity, owner and retest.
-5. **ownership transfer.** Set up a synthetic scenario, record expected versus actual outcome, severity, owner and retest.
-6. **emergency shutdown.** Set up a synthetic scenario, record expected versus actual outcome, severity, owner and retest.
-7. **maintenance access.** Set up a synthetic scenario, record expected versus actual outcome, severity, owner and retest.
+| Journey | Success condition | Common failure |
+| --- | --- | --- |
+| First use | A target user completes the primary task without coaching | Unclear CTA, missing permission or confusing form |
+| Core transaction | Exactly one authorized logical operation is recorded | Duplicate, stale or cross-user state |
+| Failure and recovery | User sees truthful status and a safe retry path | Silent data loss or false success |
+| Support and dispute | User can find the status, evidence and next action | Untraceable case or inaccessible support |
 
-## What founders often miss
+## Executable-style acceptance scenarios
 
-- Backend authorization and payment settlement are not guaranteed by a successful UI.
-- Real devices, low bandwidth, long names, Swahili and English content, accessible controls and realistic errors matter.
-- User research needs consent, safe data and a genuine target audience.
-- Sector-specific rules depend on what the product actually does, not only its marketing category.
+- **Authorization and event replay:** Given a meter transmits the same reading twice, when ingestion runs, then usage is counted once and raw events remain auditable.
+- **Concurrency or offline recovery:** Given a meter is offline for 48 hours, when restored, then missing intervals and estimated usage are visibly distinguished.
+- **Safety and truthfulness:** Given a technician account is revoked, when it sends a configuration change, then device/backend rejects it.
 
-## Kenya-specific decision points
+## Test environment and fixtures
 
-1. Decide whether you are only a software supplier or also performing a regulated activity such as payment services, healthcare, lending, transport, education or utilities.
-2. Check whether your data collection, processor contracts and cross-border transfers trigger obligations under Kenyan data-protection law.
-3. Verify which payment providers onboard your **legal entity** and which local payment methods are available.
-4. Test Kenyan phone numbers, KES display, address formats, time zone (Africa/Nairobi), intermittent connectivity and accessible user journeys.
-5. Record unresolved questions for qualified local counsel or sector regulator; do not claim automatic approval.
+Use two fictional organizations or households, a new user and returning user, a revoked role, synthetic records, a sandbox payment where applicable, slow mobile data, and an older Android phone. Seed predictable identifiers and reset state after each attempt. Do not use real customer records.
 
-## Official starting points (not legal conclusions)
+## Failure matrix
 
+- **Meter replay:** define trigger, expected state, observable actual state, harm, fix owner and comparable retest.
+- **tamper event:** define trigger, expected state, observable actual state, harm, fix owner and comparable retest.
+- **offline estimate:** define trigger, expected state, observable actual state, harm, fix owner and comparable retest.
+- **bill dispute:** define trigger, expected state, observable actual state, harm, fix owner and comparable retest.
+- **technician authorization:** define trigger, expected state, observable actual state, harm, fix owner and comparable retest.
+
+## Kenya deployment questions
+
+WASREB/EPRA and county operational requirements as applicable. Check whether your **actual activity** requires a license, contract, approval or qualified review; do not assume the category itself determines obligations. Test KES formatting, +254 and international numbers, Africa/Nairobi dates, Kiswahili and English content where relevant, shared-device privacy and intermittent connectivity.
+
+## Primary references
+
+- [WASREB](https://wasreb.go.ke/)
 - [EPRA](https://www.epra.go.ke/)
-- [Kenya Water Services Regulatory Board](https://wasreb.go.ke/)
-- [OWASP IoT](https://owasp.org/www-project-internet-of-things/)
 
-## Ship decision
+## Release gate and evidence
 
-Block release for unresolved privacy, money loss, unauthorized access, physical harm or unusable primary workflows. Run comparable tests after fixing issues.
+**Block release** for unauthorized access, unreconciled money, unsafe advice, lost critical records or a blocked core task. Report build, scenario ID, preconditions, expected/actual result, severity, redacted evidence, owner, fix and retest. Record *not attempted* honestly.
 
-_Last curated: 2026-11-23. Program and regulatory requirements require current verification._
+[Copyable test case](../templates/test-case.md) · [Founder QA scorecard](../templates/founder-scorecard.md).

@@ -12,7 +12,7 @@
 - [Design and growth audits](../design-growth/README.md)
 - [UI inspiration websites](../inspiration/README.md)
 
-## New founder operations and editorial resources
+## Founder operations and editorial resources
 
 - [Onboarding activation experiment](founder-onboarding-experiment.md)
 - [Pricing experiments](pricing-experiment.md)
@@ -22,6 +22,12 @@
 - [Marketplace dispute operations](marketplace-dispute-operations.md)
 - [Source freshness and corrections](editorial-source-freshness.md)
 - [Structured QA datasets](../data/README.md)
+
+## Quality evidence and deeper playbooks
+
+- [Quality evidence standard](quality-evidence-standard.md)
+- [Specialist testing tools](../tools/specialist-toolbox.md)
+- [Deep app-type testing](../app-types/README.md)
 
 ## First release
 

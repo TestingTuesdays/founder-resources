@@ -20,7 +20,7 @@ Start with your product's **actual user task and risk**, then use the appropriat
 - [NGO, donation and fundraising apps](nonprofit-donations.md) — Donor trust, disbursement evidence, restricted funds, receipts and privacy
 - [Social, dating and community apps](social-community.md) — Identity, reporting, abuse, consent, child safety and user-generated content
 
-## Additional product categories
+## More product categories
 
 - [B2B SaaS](b2b-saas.md)
 - [AI chatbots and agents](ai-chatbots.md)
@@ -33,8 +33,19 @@ Start with your product's **actual user task and risk**, then use the appropriat
 - [Real-estate finance](real-estate-finance.md)
 - [Gaming](gaming.md)
 
+## Deep-dive playbooks
+
+These app categories include expanded acceptance scenarios and matching skills:
+
+- [Fintech and wallet](fintech-wallet.md) · [Skill](../skills/app-fintech-wallet-deep-dive/SKILL.md)
+- [Health and care](healthtech.md) · [Skill](../skills/app-healthtech-deep-dive/SKILL.md)
+- [Education and learning](edtech.md) · [Skill](../skills/app-edtech-deep-dive/SKILL.md)
+- [Agriculture](agritech.md) · [Skill](../skills/app-agritech-deep-dive/SKILL.md)
+- [Water and energy utilities](energy-water-iot.md) · [Skill](../skills/app-energy-water-iot-deep-dive/SKILL.md)
+- [Events and ticketing](ticketing-events.md) · [Skill](../skills/app-ticketing-events-deep-dive/SKILL.md)
+
 Each playbook includes scenarios, common mistakes, Kenya-specific considerations and official references. These are founder QA starting points, not a substitute for professional legal, medical, financial or safety reviews.
 
 ## Importable test scenarios
 
-[32 starter scenarios by app type](../data/app-type-scenarios.csv) are available as CSV for use in a private QA tracker. They are proposed scenarios, not completed tests.
+[Starter scenarios by app type](../data/app-type-scenarios.csv) are available as CSV for use in a private QA tracker. They are proposed scenarios, not completed tests.

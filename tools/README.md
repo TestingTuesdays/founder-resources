@@ -176,3 +176,7 @@ Check country-specific integration eligibility, data handling, cost and producti
 ## Local metadata auditing
 
 - [Python static HTML metadata auditor](local-seo-audit.md) — zero hosted CI minutes; checks titles, H1, description, canonical, Open Graph, alt attributes and JSON-LD syntax.
+
+## Specialist QA tools by product problem
+
+- [Specialist testing toolbox](specialist-toolbox.md) — device labs, accessibility, API testing, observability, AI evaluations, search and Kenya integrations.

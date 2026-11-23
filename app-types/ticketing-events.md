@@ -1,30 +1,49 @@
-# Events, ticketing and access-control apps — testing and release playbook
+# Events and ticketing — practical founder testing playbook
 
-[← All app types](README.md) · [Kenya hub](../kenya/README.md) · [Quality templates](../templates/README.md)
+[← All app types](README.md) · [Kenya hub](../kenya/README.md) · [Reusable skill](../skills/app-ticketing-events-deep-dive/SKILL.md)
 
-## Product quality goal
+## Outcome to protect
 
-Capacity, seat inventory, payments, offline QR scanning and fraud.
+**Inventory, payments, offline gates and refunds.** Offline QR scanning and delayed payment confirmation can admit more guests than paid capacity.
 
-## High-risk scenarios
+## Critical user journeys
 
-1. Double-booked seat. Use a synthetic case, expected result, observed result and comparable retest.
-2. duplicate QR scan. Use a synthetic case, expected result, observed result and comparable retest.
-3. refund. Use a synthetic case, expected result, observed result and comparable retest.
-4. offline gate. Use a synthetic case, expected result, observed result and comparable retest.
-5. delayed M-Pesa callback. Use a synthetic case, expected result, observed result and comparable retest.
+| Journey | Success condition | Common failure |
+| --- | --- | --- |
+| First use | A target user completes the primary task without coaching | Unclear CTA, missing permission or confusing form |
+| Core transaction | Exactly one authorized logical operation is recorded | Duplicate, stale or cross-user state |
+| Failure and recovery | User sees truthful status and a safe retry path | Silent data loss or false success |
+| Support and dispute | User can find the status, evidence and next action | Untraceable case or inaccessible support |
 
-## Founder testing plan
+## Executable-style acceptance scenarios
 
-1. Identify a real target user and a critical task, then define pass/fail before testing.
-2. Include an unauthorized access attempt, provider outage, duplicate/retry and accessibility test where relevant.
-3. Check Kenyan payment methods, data protection, connectivity, locale and sector permissions if serving Kenya.
-4. Document the difference between software QA and any required licensing or expert review.
-5. Assign severity, fix owner and versioned retest; do not label unexecuted tests passed.
+- **Authorization and event replay:** Given one seat and two simultaneous checkout attempts, when both submit, then only one reservation can be confirmed.
+- **Concurrency or offline recovery:** Given a QR ticket already scanned on another offline gate, when syncing, then duplicate detection and dispute workflow are explicit.
+- **Safety and truthfulness:** Given an M-Pesa payment pending, when gate staff search ticket, then status cannot be falsely represented as paid.
+
+## Test environment and fixtures
+
+Use two fictional organizations or households, a new user and returning user, a revoked role, synthetic records, a sandbox payment where applicable, slow mobile data, and an older Android phone. Seed predictable identifiers and reset state after each attempt. Do not use real customer records.
+
+## Failure matrix
+
+- **Seat race:** define trigger, expected state, observable actual state, harm, fix owner and comparable retest.
+- **duplicate QR:** define trigger, expected state, observable actual state, harm, fix owner and comparable retest.
+- **late payment:** define trigger, expected state, observable actual state, harm, fix owner and comparable retest.
+- **refunds:** define trigger, expected state, observable actual state, harm, fix owner and comparable retest.
+- **accessible check-in:** define trigger, expected state, observable actual state, harm, fix owner and comparable retest.
+
+## Kenya deployment questions
+
+Local event permits and merchant terms as applicable. Check whether your **actual activity** requires a license, contract, approval or qualified review; do not assume the category itself determines obligations. Test KES formatting, +254 and international numbers, Africa/Nairobi dates, Kiswahili and English content where relevant, shared-device privacy and intermittent connectivity.
 
 ## Primary references
 
 - [Safaricom Daraja](https://developer.safaricom.co.ke/)
 - [OWASP ASVS](https://asvs.owasp.org/)
 
-**Scope:** educational QA guidance; market, legal and provider rules must be checked for the specific business.
+## Release gate and evidence
+
+**Block release** for unauthorized access, unreconciled money, unsafe advice, lost critical records or a blocked core task. Report build, scenario ID, preconditions, expected/actual result, severity, redacted evidence, owner, fix and retest. Record *not attempted* honestly.
+
+[Copyable test case](../templates/test-case.md) · [Founder QA scorecard](../templates/founder-scorecard.md).

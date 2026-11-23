@@ -1,44 +1,48 @@
-# Fintech, wallet and lending apps — founder testing playbook
+# Fintech wallet and lending — practical founder testing playbook
 
-[← App-type index](README.md) · [Kenya launch guide](../kenya/README.md) · [Test template](../templates/test-case.md)
+[← All app types](README.md) · [Kenya hub](../kenya/README.md) · [Reusable skill](../skills/app-fintech-wallet-deep-dive/SKILL.md)
 
-## Product-quality goal
+## Outcome to protect
 
-Transactions, KYC, balance integrity, disputes and regulated activities.
+**Ledger integrity, customer funds and disclosures.** A payment request may be accepted but never settle; balances and entitlements must follow independently verified state.
 
-## Minimum test matrix
+## Critical user journeys
 
-1. **Duplicate M-Pesa callback.** Set up a synthetic scenario, record expected versus actual outcome, severity, owner and retest.
-2. **ledger mismatch.** Set up a synthetic scenario, record expected versus actual outcome, severity, owner and retest.
-3. **wallet negative balance.** Set up a synthetic scenario, record expected versus actual outcome, severity, owner and retest.
-4. **reversal after timeout.** Set up a synthetic scenario, record expected versus actual outcome, severity, owner and retest.
-5. **consent and access.** Set up a synthetic scenario, record expected versus actual outcome, severity, owner and retest.
-6. **lending disclosures.** Set up a synthetic scenario, record expected versus actual outcome, severity, owner and retest.
-7. **offline status.** Set up a synthetic scenario, record expected versus actual outcome, severity, owner and retest.
+| Journey | Success condition | Common failure |
+| --- | --- | --- |
+| First use | A target user completes the primary task without coaching | Unclear CTA, missing permission or confusing form |
+| Core transaction | Exactly one authorized logical operation is recorded | Duplicate, stale or cross-user state |
+| Failure and recovery | User sees truthful status and a safe retry path | Silent data loss or false success |
+| Support and dispute | User can find the status, evidence and next action | Untraceable case or inaccessible support |
 
-## What founders often miss
+## Executable-style acceptance scenarios
 
-- Backend authorization and payment settlement are not guaranteed by a successful UI.
-- Real devices, low bandwidth, long names, Swahili and English content, accessible controls and realistic errors matter.
-- User research needs consent, safe data and a genuine target audience.
-- Sector-specific rules depend on what the product actually does, not only its marketing category.
+- **Authorization and event replay:** Given a synthetic order with one pending STK request, when a success callback arrives twice, then exactly one ledger credit is posted and the provider reference remains unique.
+- **Concurrency or offline recovery:** Given a customer wallet with insufficient funds, when two transfers race, then available balance never becomes negative and neither recipient is credited without corresponding debit.
+- **Safety and truthfulness:** Given a delayed reversal after a paid state, when reconciliation runs, then the customer balance, invoice and audit trail reflect the reversal with an explicit reason.
 
-## Kenya-specific decision points
+## Test environment and fixtures
 
-1. Decide whether you are only a software supplier or also performing a regulated activity such as payment services, healthcare, lending, transport, education or utilities.
-2. Check whether your data collection, processor contracts and cross-border transfers trigger obligations under Kenyan data-protection law.
-3. Verify which payment providers onboard your **legal entity** and which local payment methods are available.
-4. Test Kenyan phone numbers, KES display, address formats, time zone (Africa/Nairobi), intermittent connectivity and accessible user journeys.
-5. Record unresolved questions for qualified local counsel or sector regulator; do not claim automatic approval.
+Use two fictional organizations or households, a new user and returning user, a revoked role, synthetic records, a sandbox payment where applicable, slow mobile data, and an older Android phone. Seed predictable identifiers and reset state after each attempt. Do not use real customer records.
 
-## Official starting points (not legal conclusions)
+## Failure matrix
+
+- **M-Pesa settlement mismatch:** define trigger, expected state, observable actual state, harm, fix owner and comparable retest.
+- **duplicate callback:** define trigger, expected state, observable actual state, harm, fix owner and comparable retest.
+- **unauthorized wallet read:** define trigger, expected state, observable actual state, harm, fix owner and comparable retest.
+- **repayment and loan disclosure:** define trigger, expected state, observable actual state, harm, fix owner and comparable retest.
+
+## Kenya deployment questions
+
+Kenya/CBK applicability; ODPC sensitive data; PSP onboarding. Check whether your **actual activity** requires a license, contract, approval or qualified review; do not assume the category itself determines obligations. Test KES formatting, +254 and international numbers, Africa/Nairobi dates, Kiswahili and English content where relevant, shared-device privacy and intermittent connectivity.
+
+## Primary references
 
 - [CBK](https://www.centralbank.go.ke/)
 - [Safaricom Daraja](https://developer.safaricom.co.ke/)
-- [ODPC](https://www.odpc.go.ke/)
 
-## Ship decision
+## Release gate and evidence
 
-Block release for unresolved privacy, money loss, unauthorized access, physical harm or unusable primary workflows. Run comparable tests after fixing issues.
+**Block release** for unauthorized access, unreconciled money, unsafe advice, lost critical records or a blocked core task. Report build, scenario ID, preconditions, expected/actual result, severity, redacted evidence, owner, fix and retest. Record *not attempted* honestly.
 
-_Last curated: 2026-11-23. Program and regulatory requirements require current verification._
+[Copyable test case](../templates/test-case.md) · [Founder QA scorecard](../templates/founder-scorecard.md).
