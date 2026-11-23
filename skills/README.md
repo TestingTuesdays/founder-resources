@@ -19,4 +19,15 @@ Skills are reusable **human or AI-assisted procedures** with defined inputs, tes
 | [SEO/AI discovery audit](seo-quality-audit/SKILL.md) | Crawlability and truthful discoverability |
 | [Data migration review](data-migration-review/SKILL.md) | Data integrity and rollback |
 
+## Additional skills for real-world founder constraints
+
+| Skill | Goal |
+| --- | --- |
+| [Low-bandwidth mobile test](low-bandwidth-test/SKILL.md) | Verify poor network, older devices and recovery |
+| [Cloud cost audit](cloud-cost-audit/SKILL.md) | Check paid seats, credit expiry and usage |
+| [PWA offline audit](pwa-offline-audit/SKILL.md) | Verify cache, sync and upgrades |
+| [Recruit target users](founder-user-recruiting/SKILL.md) | Run consent-aware matching and unbiased tests |
+| [Founder QA scorecard](release-quality-scorecard/SKILL.md) | Track tested tasks, severity and real retests |
+| [Trust & abuse audit](trust-abuse-audit/SKILL.md) | Test blocking, reporting, access and appeals |
+
 Copy [session and release templates](../templates/README.md) into **private** team records. Review personal-data safety before recording tests.

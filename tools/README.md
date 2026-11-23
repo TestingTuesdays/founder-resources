@@ -150,3 +150,8 @@
 ## Due diligence before buying
 
 Review current price/seat limits, supported devices and browsers, data-processing location, recording/redaction controls, accessibility, vendor lock-in and export, SSO, uptime commitments and feature maturity. **No sponsored placement or guaranteed free perks.**
+
+## Low-cost and no-CI founder options
+
+- [Local and open-source testing stack](free-and-local.md) — QA without hosted runner minutes.
+- [Manual documentation verification](../docs/manual-quality-checks.md) — check links and catalog format locally.

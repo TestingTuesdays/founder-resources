@@ -74,3 +74,7 @@ If your company is incorporated and the service is offered to your entity, start
 Use the [perk submission issue form](../.github/ISSUE_TEMPLATE/perk_submission.yml), [perk research template](../templates/perk-research.md), or a PR to update the CSV and this human-readable index. Confirm official source, current value, who qualifies, country eligibility, deadline/expiry, application route and important restrictions. See [editorial guidance](../CONTRIBUTING.md).
 
 _Last curated: 2026-11-23. These programs are external; Testing Tuesdays has not negotiated member-exclusive credits unless explicitly announced separately._
+
+## Time-sensitive provider policy note
+
+**Current Cloudflare eligibility caveat:** The provider advertises a $10k self-funded tier, but its general qualification list also refers to funding in the prior 12 months. These statements may not fit every bootstrapped company; ask the provider to confirm your eligibility before relying on credits. Its page also announces changes to Workers AI credit coverage effective December 1, 2026; verify eligible products and exclusions before spending.

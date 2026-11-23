@@ -60,7 +60,7 @@ A **free public knowledge base** for founders testing and shipping SaaS, consume
 
 ## Skills, tools and templates
 
-[**Tool directory**](tools/README.md) covers research, QA, accessibility, security, mobile, localization, payments, product analytics and AI. [**Skill library**](skills/README.md) provides 12 repeatable procedures with inputs, steps and evidence. [**Templates**](templates/README.md) help you track tasks, defects and retests.
+[**Tool directory**](tools/README.md) and [low-cost/local testing stack](tools/free-and-local.md) cover research, QA, accessibility, security, mobile, localization, payments, product analytics and AI. [**Skill library**](skills/README.md) provides 18 repeatable procedures with inputs, steps and evidence. [**Templates**](templates/README.md) help you track tasks, defects and retests.
 
 ### Minimum quality loop
 

@@ -29,7 +29,7 @@ Use one of four labels: **Official terms reviewed**, **Program discovery — rec
 ## Pull request quality gates
 
 1. Edit the relevant topic guide and navigation links; for perks update both `perks/catalog.csv` and the readable directory.
-2. Keep relative links valid. Run `python3 scripts/check_links.py` from the repo root.
+2. Keep relative links valid. Run `python3 scripts/check_links.py` and `python3 scripts/validate_perks.py` locally; **do not enable GitHub Actions** for routine docs. See [manual guide](docs/manual-quality-checks.md).
 3. Document official sources and the date last reviewed. Never paste large copied source passages.
 4. Include an honest practical example, and note what has *not* been verified.
 5. Declare affiliate/referral/sponsorship relationships; no paid rankings or undisclosed affiliate links.
@@ -39,7 +39,7 @@ Use one of four labels: **Official terms reviewed**, **Program discovery — rec
 
 ## Maintainer review workflow
 
-**Intake → deduplicate → source verify → eligibility/country review → safety/privacy review → edit navigation/data → local-link CI → reviewer approval → merge → schedule recheck.**
+**Intake → deduplicate → source verify → eligibility/country review → safety/privacy review → edit navigation/data → manual local checks → reviewer approval → merge → schedule recheck.**
 
 Prioritize inaccuracies that could cause billing surprises, dangerous testing, blocked app submission or misleading startup funding expectations. For rapidly changing perks, aim to recheck at least quarterly or sooner after a policy change. Mark an unverified lead honestly instead of removing a useful discovery trail.
 

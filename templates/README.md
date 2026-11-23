@@ -10,6 +10,12 @@
 - [Release checklist](release-checklist.md) — production go/no-go
 - [Retest & ship-back](retest.md) — verified improvement
 
+## Operations and release evidence
+
+- [Low-network scenario report](network-test.md) — device, bandwidth, latency, retries and recovery
+- [Cloud billing audit](finops-audit.md) — vendors, seats, credits and alerts (copy privately)
+- [Founder QA scorecard](founder-scorecard.md) — tested versus unattempted tasks, severity and retests
+
 ## Contributing to the public library
 
 - [Resource submission](resource-submission.md) — what founders need to understand and verify
