@@ -182,3 +182,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and the [issue templates](.github/ISSUE_T
 **Privacy and safety:** no real customer data, API keys, participant recordings or private founder reports in public GitHub issues. Security testing is for authorized systems only. This library is guidance, not a security, accessibility, regulatory or store-approval certification.
 
 _Last curated: November 23, 2026._
+
+## Expanded QA and founder perks resources
+
+- [QA, research and startup credits discovery](perks/qa-research-and-startup-expansion.md)
+- [Practical QA and real-user testing field guide](research/qa-user-testing-field-guide.md)
