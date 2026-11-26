@@ -35,3 +35,7 @@ Tool pricing, limits and country availability change. These are discovery links,
 ## Selection checklist
 
 Assess data storage, consent, masking, export, accessibility, localization, cost after free tier, vendor retention, webhooks/API availability, duplicate handling and ability to delete participant data.
+
+## Practical field guide
+
+[QA and real-user testing field guide](qa-user-testing-field-guide.md) — recruitment, testing workflow, templates and specialist release checks. [Perks and vendor discovery](../perks/qa-research-and-startup-expansion.md).
