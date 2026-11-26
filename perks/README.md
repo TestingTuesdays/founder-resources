@@ -102,3 +102,8 @@ For partner-restricted third-party offers, see [partner offer marketplace guidan
 ## Venture capital and founder learning
 
 For equity fundraising rather than credits, use the [Kenya investor directory](../investors/README.md) and [qualification methodology](../investors/qualification-method.md). For educational resources, see [startup learning](../data/startup-learning.csv). VC investment, accelerator support, software credits and grants are different instruments.
+
+## QA, research and startup credits expansion
+
+- [Expanded provider discovery guide](qa-research-and-startup-expansion.md) — new and updated program records, including open-source-only benefits and unverified research leads.
+- [Practical QA and user testing field guide](../research/qa-user-testing-field-guide.md).
